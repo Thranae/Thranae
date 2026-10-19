@@ -1,7 +1,12 @@
 <div align="center">
 
-<!-- Hero Banner with Dynamic Gradient Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,15,35,45&height=220&section=header&text=THRANAESWANTH%20S&fontSize=44&fontAlignY=36&desc=Full-Stack%20Systems%20Engineer%20%7C%20Autonomous%20AI%20%7C%20Offline-First%20OS&descSize=16&descAlignY=62&fontColor=ffffff" width="100%" alt="Thranaeswanth S Header Banner" />
+<!-- Bespoke Aerospace / Linear-style Header Banner -->
+<a href="https://github.com/Thranae">
+  <img src="profile-banner.png" width="100%" alt="Thranaeswanth S Engineering Banner" />
+</a>
+
+<br />
+<br />
 
 <!-- Dynamic Animated Typing Subtitle -->
 <a href="https://github.com/Thranae">
@@ -168,7 +173,6 @@ const thranae: SoftwareEngineer = {
 [![GitHub](https://img.shields.io/badge/GitHub-Follow%20@Thranae-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Thranae)
 
 <br />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,15,35,45&height=100&section=footer" width="100%" alt="Footer Wave" />
+<br />
 
 </div>
