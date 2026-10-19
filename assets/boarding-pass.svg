@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 360" width="100%" height="360" fill="none">
+  <defs>
+    <!-- Ticket Glass Gradient -->
+    <linearGradient id="ticketBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#090d16" stop-opacity="0.98" />
+      <stop offset="100%" stop-color="#020617" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Holographic Foil Sheen Gradient -->
+    <linearGradient id="holoFoil" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="45%" stop-color="#c084fc" stop-opacity="0.4" />
+      <stop offset="55%" stop-color="#f472b6" stop-opacity="0.45" />
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Card Border Gradient -->
+    <linearGradient id="ticketBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="35%" stop-color="#818cf8" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Flight Route Gradient -->
+    <linearGradient id="routeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Scan Line Gradient -->
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <style>
+      @keyframes holoSweep {
+        0% { transform: translateX(-800px) skewX(-20deg); }
+        50%, 100% { transform: translateX(1000px) skewX(-20deg); }
+      }
+      @keyframes scanAnim {
+        0%, 100% { transform: translateY(0px); opacity: 0.3; }
+        50% { transform: translateY(140px); opacity: 1; }
+      }
+      @keyframes flightPulse {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 4px #38bdf8); }
+        50% { transform: scale(1.15); filter: drop-shadow(0 0 12px #c084fc); }
+      }
+      .holo-layer {
+        animation: holoSweep 6s ease-in-out infinite;
+      }
+      .scanner-beam {
+        animation: scanAnim 3s ease-in-out infinite;
+      }
+      .plane-icon {
+        animation: flightPulse 2.5s ease-in-out infinite;
+        transform-origin: 290px 145px;
+      }
+    </style>
+
+    <clipPath id="ticketClip">
+      <!-- Outer rounded ticket with ticket notches -->
+      <path d="M 38 20 
+               L 560 20 
+               A 16 16 0 0 1 576 36 
+               A 16 16 0 0 1 592 20 
+               L 822 20 
+               A 24 24 0 0 1 846 44 
+               L 846 316 
+               A 24 24 0 0 1 822 340 
+               L 592 340 
+               A 16 16 0 0 1 576 324 
+               A 16 16 0 0 1 560 340 
+               L 38 340 
+               A 24 24 0 0 1 14 316 
+               L 14 44 
+               A 24 24 0 0 1 38 20 Z" />
+    </clipPath>
+  </defs>
+
+  <!-- Ambient Glow Behind Pass -->
+  <rect x="24" y="30" width="812" height="300" rx="30" fill="#0284c7" opacity="0.2" filter="blur(24px)" />
+
+  <!-- Main Ticket Body (Clipped to notch path) -->
+  <g clip-path="url(#ticketClip)">
+    <!-- Base Dark Obsidian Tile -->
+    <rect x="14" y="20" width="832" height="320" fill="url(#ticketBase)" />
+
+    <!-- Subtle Circuit / Carbon Texture -->
+    <line x1="14" y1="70" x2="846" y2="70" stroke="#1e293b" stroke-width="1" />
+    <line x1="14" y1="240" x2="846" y2="240" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Iridescent Holographic Shimmer Sweep -->
+    <rect x="-200" y="-100" width="400" height="500" fill="url(#holoFoil)" class="holo-layer" />
+
+    <!-- Perforation Cut Line -->
+    <line x1="576" y1="20" x2="576" y2="340" stroke="#334155" stroke-width="2" stroke-dasharray="6,6" />
+
+    <!-- LEFT SECTION: FLIGHT TELEMETRY -->
+    <!-- Top Header -->
+    <g transform="translate(44, 50)">
+      <circle cx="6" cy="0" r="4" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="18" y="4" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="2">PACKWISE AIRLINES // AUTONOMOUS PASS</text>
+      <text x="500" y="4" text-anchor="end" fill="#64748b" font-family="monospace" font-size="11" letter-spacing="1">PK-702 • FLIGHT VERIFIED</text>
+    </g>
+
+    <!-- Main Airport Codes Route -->
+    <g transform="translate(44, 150)">
+      <!-- Origin -->
+      <text x="0" y="0" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" letter-spacing="2">TYO</text>
+      <text x="0" y="22" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">TOKYO HANEDA</text>
+
+      <!-- Connecting Flight Arc -->
+      <path d="M 120 -12 C 180 -35, 260 -35, 320 -12" fill="none" stroke="url(#routeGrad)" stroke-width="3" stroke-dasharray="4,4" />
+      <!-- Animated Plane Marker -->
+      <g class="plane-icon" transform="translate(220, -28)">
+        <polygon points="0,-7 8,7 -8,7" fill="#38bdf8" transform="rotate(90)" />
+      </g>
+
+      <!-- Destination -->
+      <text x="350" y="0" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" letter-spacing="2">PAR</text>
+      <text x="350" y="22" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">PARIS CDG</text>
+    </g>
+
+    <!-- Flight Details Matrix -->
+    <g transform="translate(44, 280)">
+      <!-- Passenger -->
+      <g transform="translate(0, 0)">
+        <text x="0" y="-14" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" letter-spacing="1">PASSENGER</text>
+        <text x="0" y="8" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">THRANAESWANTH S</text>
+      </g>
+
+      <!-- Gate -->
+      <g transform="translate(170, 0)">
+        <text x="0" y="-14" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" letter-spacing="1">GATE</text>
+        <text x="0" y="8" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">14A</text>
+      </g>
+
+      <!-- Seat -->
+      <g transform="translate(245, 0)">
+        <text x="0" y="-14" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" letter-spacing="1">SEAT</text>
+        <text x="0" y="8" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">03F</text>
+      </g>
+
+      <!-- Departure -->
+      <g transform="translate(320, 0)">
+        <text x="0" y="-14" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" letter-spacing="1">DEPARTURE</text>
+        <text x="0" y="8" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">21:45 JST</text>
+      </g>
+
+      <!-- Class -->
+      <g transform="translate(430, 0)">
+        <text x="0" y="-14" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" letter-spacing="1">CLASS</text>
+        <text x="0" y="8" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">FIRST // SUITE</text>
+      </g>
+    </g>
+
+    <!-- RIGHT SECTION: BOARDING STUB & QR -->
+    <g transform="translate(610, 50)">
+      <!-- Stub Header -->
+      <text x="0" y="4" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">BOARDING PASS</text>
+      <text x="0" y="24" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="700">PK 702 • 03F</text>
+
+      <!-- Simulated QR Code Container -->
+      <g transform="translate(15, 45)">
+        <rect x="0" y="0" width="160" height="160" rx="14" fill="#030712" stroke="#1e293b" stroke-width="1" />
+        
+        <!-- Laser Scanner Bar -->
+        <rect x="5" y="0" width="150" height="4" fill="url(#scanGrad)" class="scanner-beam" />
+
+        <!-- Stylized QR Vector Pattern -->
+        <!-- Corner Markers -->
+        <rect x="16" y="16" width="36" height="36" rx="4" fill="none" stroke="#38bdf8" stroke-width="4" />
+        <rect x="24" y="24" width="20" height="20" fill="#38bdf8" />
+
+        <rect x="108" y="16" width="36" height="36" rx="4" fill="none" stroke="#38bdf8" stroke-width="4" />
+        <rect x="116" y="24" width="20" height="20" fill="#38bdf8" />
+
+        <rect x="16" y="108" width="36" height="36" rx="4" fill="none" stroke="#38bdf8" stroke-width="4" />
+        <rect x="24" y="116" width="20" height="20" fill="#38bdf8" />
+
+        <!-- Interior Data Matrix Pixels -->
+        <circle cx="68" cy="24" r="5" fill="#c084fc" />
+        <circle cx="88" cy="24" r="4" fill="#38bdf8" />
+        <circle cx="76" cy="40" r="4" fill="#93c5fd" />
+        <circle cx="68" cy="56" r="6" fill="#38bdf8" />
+        <circle cx="92" cy="56" r="4" fill="#c084fc" />
+        <circle cx="48" cy="68" r="5" fill="#38bdf8" />
+        <circle cx="120" cy="76" r="5" fill="#93c5fd" />
+        <circle cx="80" cy="80" r="7" fill="#38bdf8" />
+        <circle cx="64" cy="96" r="4" fill="#c084fc" />
+        <circle cx="96" cy="96" r="5" fill="#38bdf8" />
+        <circle cx="116" cy="116" r="4" fill="#93c5fd" />
+        <circle cx="132" cy="132" r="5" fill="#38bdf8" />
+        <circle cx="68" cy="128" r="5" fill="#c084fc" />
+        <circle cx="88" cy="136" r="6" fill="#38bdf8" />
+      </g>
+
+      <!-- Status Indicator -->
+      <g transform="translate(15, 230)">
+        <rect x="0" y="0" width="160" height="26" rx="13" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+        <circle cx="14" cy="13" r="4" fill="#10b981" />
+        <text x="26" y="17" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1">DEXIE OFFLINE PASS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- High-Precision Glass Bevel Border -->
+  <path d="M 38 20 
+           L 560 20 
+           A 16 16 0 0 1 576 36 
+           A 16 16 0 0 1 592 20 
+           L 822 20 
+           A 24 24 0 0 1 846 44 
+           L 846 316 
+           A 24 24 0 0 1 822 340 
+           L 592 340 
+           A 16 16 0 0 1 576 324 
+           A 16 16 0 0 1 560 340 
+           L 38 340 
+           A 24 24 0 0 1 14 316 
+           L 14 44 
+           A 24 24 0 0 1 38 20 Z" 
+        fill="none" stroke="url(#ticketBorder)" stroke-width="2" />
+</svg>
