@@ -120,39 +120,41 @@
   <path d="M 60 300 C 260 110, 560 70, 1140 160" fill="none" stroke="#0ea5e9" stroke-width="1.5" stroke-opacity="0.25" stroke-dasharray="6,6" />
   <path d="M 60 300 C 260 110, 560 70, 1140 160" fill="none" stroke="#38bdf8" stroke-width="2.5" class="flight-line" />
 
-  <!-- Floating 3D Suitcase & Pin Icon (Centric left anchor - perfectly centered at Y=190) -->
-  <g class="floating-icon" transform="translate(150, 190)">
-    <!-- Drop Shadow on Icon Tile -->
-    <rect x="-80" y="-80" width="160" height="160" rx="38" fill="#000000" opacity="0.4" filter="blur(16px)" />
-    
-    <!-- 3D Glass Tile Base -->
-    <rect x="-80" y="-80" width="160" height="160" rx="38" fill="url(#convexBase)" />
-    <!-- Glass Lens Specular Reflection -->
-    <rect x="-80" y="-80" width="160" height="160" rx="38" fill="url(#glassLens)" />
-    <rect x="-80" y="-80" width="160" height="160" rx="38" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2" />
+  <!-- Floating 3D Suitcase & Pin Icon (Centric left anchor - nested to preserve translate) -->
+  <g transform="translate(150, 190)">
+    <g class="floating-icon">
+      <!-- Drop Shadow on Icon Tile -->
+      <rect x="-80" y="-80" width="160" height="160" rx="38" fill="#000000" opacity="0.4" filter="blur(16px)" />
+      
+      <!-- 3D Glass Tile Base -->
+      <rect x="-80" y="-80" width="160" height="160" rx="38" fill="url(#convexBase)" />
+      <!-- Glass Lens Specular Reflection -->
+      <rect x="-80" y="-80" width="160" height="160" rx="38" fill="url(#glassLens)" />
+      <rect x="-80" y="-80" width="160" height="160" rx="38" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2" />
 
-    <!-- Centered Suitcase -->
-    <g transform="translate(0, 4) scale(0.33)">
-      <!-- Retractable Handle -->
-      <rect x="-42" y="-140" width="84" height="50" rx="14" fill="none" stroke="url(#metal)" stroke-width="16" />
-      <rect x="-38" y="-142" width="76" height="22" rx="11" fill="url(#rubber)" />
+      <!-- Centered Suitcase -->
+      <g transform="translate(0, 4) scale(0.33)">
+        <!-- Retractable Handle -->
+        <rect x="-42" y="-140" width="84" height="50" rx="14" fill="none" stroke="url(#metal)" stroke-width="16" />
+        <rect x="-38" y="-142" width="76" height="22" rx="11" fill="url(#rubber)" />
 
-      <!-- Main Titanium Suitcase Shell -->
-      <rect x="-70" y="-90" width="140" height="180" rx="32" fill="url(#titanium)" />
-      <rect x="-70" y="-90" width="140" height="180" rx="32" fill="none" stroke="url(#metal)" stroke-width="6" />
+        <!-- Main Titanium Suitcase Shell -->
+        <rect x="-70" y="-90" width="140" height="180" rx="32" fill="url(#titanium)" />
+        <rect x="-70" y="-90" width="140" height="180" rx="32" fill="none" stroke="url(#metal)" stroke-width="6" />
 
-      <!-- Vertical Rib Grooves -->
-      <line x1="-36" y1="-70" x2="-36" y2="70" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" />
-      <line x1="0" y1="-70" x2="0" y2="70" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" />
-      <line x1="36" y1="-70" x2="36" y2="70" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" />
+        <!-- Vertical Rib Grooves -->
+        <line x1="-36" y1="-70" x2="-36" y2="70" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" />
+        <line x1="0" y1="-70" x2="0" y2="70" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" />
+        <line x1="36" y1="-70" x2="36" y2="70" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" />
 
-      <!-- Rubber Wheels -->
-      <rect x="-56" y="90" width="28" height="20" rx="10" fill="url(#rubber)" stroke="url(#metal)" stroke-width="3" />
-      <rect x="28" y="90" width="28" height="20" rx="10" fill="url(#rubber)" stroke="url(#metal)" stroke-width="3" />
+        <!-- Rubber Wheels -->
+        <rect x="-56" y="90" width="28" height="20" rx="10" fill="url(#rubber)" stroke="url(#metal)" stroke-width="3" />
+        <rect x="28" y="90" width="28" height="20" rx="10" fill="url(#rubber)" stroke="url(#metal)" stroke-width="3" />
 
-      <!-- Glossy 3D Blue Pin Overlay -->
-      <path d="M 0 -36 C -32 -36 -46 -10 0 46 C 46 -10 32 -36 0 -36 Z" fill="url(#pin3D)" />
-      <circle cx="0" cy="-14" r="12" fill="#ffffff" />
+        <!-- Glossy 3D Blue Pin Overlay -->
+        <path d="M 0 -36 C -32 -36 -46 -10 0 46 C 46 -10 32 -36 0 -36 Z" fill="url(#pin3D)" />
+        <circle cx="0" cy="-14" r="12" fill="#ffffff" />
+      </g>
     </g>
   </g>
 
