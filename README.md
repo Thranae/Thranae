@@ -1,19 +1,13 @@
 <div align="center">
 
-<!-- Bespoke Aerospace / Linear-style Header Banner -->
-<a href="https://github.com/Thranae">
-  <img src="https://raw.githubusercontent.com/Thranae/Thranae/main/profile-banner.png" width="100%" alt="Thranaeswanth S Engineering Banner" />
-</a>
-
-<br />
-<br />
+<!-- Animated Gradient Header with Vortex Effect -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=2,12,19,24,30&height=250&section=header&text=THRANAESWANTH%20S&fontSize=48&fontAlignY=40&desc=Full-Stack%20Systems%20Engineer%20•%20Autonomous%20AI%20Architect%20•%20Offline-First%20OS%20Builder&descSize=15&descAlignY=62&fontColor=ffffff&animation=twinkling" width="100%" alt="Thranaeswanth S Header Banner" />
 
 <!-- Dynamic Animated Typing Subtitle -->
 <a href="https://github.com/Thranae">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Building+Autonomous+AI+Operating+Systems;Specialized+in+React+19%2C+Vite+6+%26+Tailwind+v4;Engineering+Self-Healing+Multi-LLM+Fallbacks;Offline-First+Data+Architecture+with+Dexie.js;Cross-Platform+Execution+on+Web%2C+iOS+%26+Android" alt="Typing Tagline" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=70&lines=%E2%9A%A1+Building+Autonomous+Travel+Intelligence+Systems;%F0%9F%A7%A0+Multi-LLM+Self-Healing+Orchestration+%7C+Zero+Downtime;%F0%9F%93%B1+React+19+%2B+Vite+6+%2B+Capacitor+8+%2B+Expo;%F0%9F%94%92+Enterprise+Security+%7C+Offline-First+Architecture" alt="Typing Tagline" />
 </a>
 
-<br />
 <br />
 
 <!-- Profile Header Badges -->
@@ -88,6 +82,13 @@ const thranae: SoftwareEngineer = {
 
 <br />
 
+<a href="https://github.com/Thranae/packwise">
+  <img src="https://raw.githubusercontent.com/Thranae/packwise/main/.github/assets/app-preview.jpg" alt="PackWise App Preview" width="90%" style="border-radius: 16px;" />
+</a>
+
+<br />
+<br />
+
 <p align="center">
   <b>PackWise</b> is an enterprise-grade travel companion built to operate seamlessly even when networks fail. Features an autonomous multi-LLM self-healing router, zero-downtime offline reconciliation, and 60 FPS 3D spatial mapping.
 </p>
@@ -154,6 +155,12 @@ const thranae: SoftwareEngineer = {
   <img src="https://streak-stats.demolab.com/?user=Thranae&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=60a5fa&currStreakNum=38bdf8&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak Tracker" />
 </div>
 
+<br />
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Thranae&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=818cf8&point=a855f7&area=true&area_color=1e1b4b" alt="Contribution Graph" width="98%" />
+</div>
+
 ---
 
 ### 💡 Core Engineering Principles
@@ -173,6 +180,8 @@ const thranae: SoftwareEngineer = {
 [![GitHub](https://img.shields.io/badge/GitHub-Follow%20@Thranae-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Thranae)
 
 <br />
-<br />
+
+<!-- Unique animated footer - Cylinder effect instead of generic wave -->
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=2,12,19,24,30&height=120&section=footer&text=&animation=twinkling" width="100%" alt="Footer" />
 
 </div>
