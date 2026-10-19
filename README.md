@@ -9,7 +9,7 @@
 
 <!-- Dynamic Animated Typing Subtitle -->
 <a href="https://github.com/Thranae">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=40&lines=⚡+Building+Autonomous+Travel+Intelligence+Systems;🧠+Multi-LLM+Failover+%7C+Zero-Downtime+Task+Router;📱+Universal+React+19+%2B+Capacitor+8+%2B+Expo;📶+Offline-First+IndexedDB+Distributed+Sync" alt="Typing Tagline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=700&height=35&lines=Building+Autonomous+Travel+Intelligence+Systems;Multi-LLM+Failover+Router;Universal+React+19+PWA+and+Expo+Mobile;Offline-First+IndexedDB+Distributed+Sync" alt="Typing Tagline" />
 </a>
 
 <br />
