@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="400" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="pwBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#02040a" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="pwBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.3" />
+      <stop offset="30%" stop-color="#3b82f6" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#8b5cf6" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Neon Title Gradient -->
+    <linearGradient id="pwTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#f0f9ff" />
+      <stop offset="75%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <!-- Glow Orbs -->
+    <radialGradient id="cyanOrb" cx="35%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purpleOrb" cx="75%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="pwGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.35" />
+      <circle cx="36" cy="36" r="1" fill="#38bdf8" fill-opacity="0.2" />
+    </pattern>
+
+    <!-- 3D Convex Base Gradient for App Icon Tile -->
+    <linearGradient id="convexBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="35%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <linearGradient id="glassLens" x1="10%" y1="10%" x2="90%" y2="90%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.08" />
+    </linearGradient>
+
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="20%" stop-color="#e2e8f0" />
+      <stop offset="50%" stop-color="#94a3b8" />
+      <stop offset="80%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+
+    <linearGradient id="titanium" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1" />
+      <stop offset="40%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <linearGradient id="pin3D" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="40%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+
+    <linearGradient id="rubber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <style>
+      @keyframes borderRun {
+        0% { stroke-dashoffset: 1800; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes floatIcon {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(1deg); }
+      }
+      @keyframes pulseOrb {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.08); }
+      }
+      @keyframes flightArc {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .animated-border {
+        stroke-dasharray: 250, 1550;
+        animation: borderRun 7s linear infinite;
+      }
+      .floating-icon {
+        animation: floatIcon 4s ease-in-out infinite;
+        transform-origin: 180px 200px;
+      }
+      .flight-line {
+        stroke-dasharray: 40, 160;
+        animation: flightArc 4s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Card -->
+  <rect x="8" y="8" width="1184" height="384" rx="28" fill="url(#pwBgGrad)" />
+  <rect x="8" y="8" width="1184" height="384" rx="28" fill="url(#pwGrid)" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="280" cy="200" r="260" fill="url(#cyanOrb)" />
+  <circle cx="950" cy="200" r="240" fill="url(#purpleOrb)" />
+
+  <!-- Borders -->
+  <rect x="8" y="8" width="1184" height="384" rx="28" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  <rect x="8" y="8" width="1184" height="384" rx="28" fill="none" stroke="url(#pwBorderGrad)" stroke-width="2.5" class="animated-border" />
+
+  <!-- Flight Path Orbit Accents -->
+  <path d="M 80 320 C 300 120, 600 80, 1120 180" fill="none" stroke="#0ea5e9" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="6,6" />
+  <path d="M 80 320 C 300 120, 600 80, 1120 180" fill="none" stroke="#38bdf8" stroke-width="2.5" class="flight-line" />
+
+  <!-- Floating 3D Suitcase & Pin Icon (Centric left anchor) -->
+  <g class="floating-icon" transform="translate(110, 100)">
+    <!-- Drop Shadow on Icon Tile -->
+    <rect x="-80" y="-80" width="160" height="160" rx="38" fill="#000000" opacity="0.35" filter="blur(16px)" />
+    
+    <!-- 3D Glass Tile Base -->
+    <rect x="-80" y="-80" width="160" height="160" rx="38" fill="url(#convexBase)" />
+    <!-- Glass Lens Specular Reflection -->
+    <rect x="-80" y="-80" width="160" height="160" rx="38" fill="url(#glassLens)" />
+    <rect x="-80" y="-80" width="160" height="160" rx="38" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="2" />
+
+    <!-- Centered Suitcase -->
+    <g transform="translate(0, 4) scale(0.33)">
+      <!-- Retractable Handle -->
+      <rect x="-42" y="-140" width="84" height="50" rx="14" fill="none" stroke="url(#metal)" stroke-width="16" />
+      <rect x="-38" y="-142" width="76" height="22" rx="11" fill="url(#rubber)" />
+
+      <!-- Main Titanium Suitcase Shell -->
+      <rect x="-70" y="-90" width="140" height="180" rx="32" fill="url(#titanium)" />
+      <rect x="-70" y="-90" width="140" height="180" rx="32" fill="none" stroke="url(#metal)" stroke-width="6" />
+
+      <!-- Vertical Rib Grooves -->
+      <line x1="-36" y1="-70" x2="-36" y2="70" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" />
+      <line x1="0" y1="-70" x2="0" y2="70" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" />
+      <line x1="36" y1="-70" x2="36" y2="70" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" />
+
+      <!-- Rubber Wheels -->
+      <rect x="-56" y="90" width="28" height="20" rx="10" fill="url(#rubber)" stroke="url(#metal)" stroke-width="3" />
+      <rect x="28" y="90" width="28" height="20" rx="10" fill="url(#rubber)" stroke="url(#metal)" stroke-width="3" />
+
+      <!-- Glossy 3D Blue Pin Overlay -->
+      <path d="M 0 -36 C -32 -36 -46 -10 0 46 C 46 -10 32 -36 0 -36 Z" fill="url(#pin3D)" />
+      <circle cx="0" cy="-14" r="12" fill="#ffffff" />
+    </g>
+  </g>
+
+  <!-- Hero Content Column (Right of Icon) -->
+  <g transform="translate(320, 105)">
+    <!-- Live Autonomous Core Eyebrow Badge -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="-12" width="270" height="26" rx="13" fill="rgba(56, 189, 248, 0.1)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" />
+      <circle cx="14" cy="1" r="4.5" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite" />
+      </circle>
+      <text x="28" y="5" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2">AUTONOMOUS TRAVEL OS</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="54" fill="url(#pwTitleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="52" font-weight="900" letter-spacing="4">PackWise AI</text>
+
+    <!-- Descriptive Subtitle -->
+    <text x="0" y="96" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="500" letter-spacing="0.5">Offline-First Spatial Intelligence • Multi-LLM Self-Healing Orchestrator</text>
+    
+    <text x="0" y="124" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400">PWA • Capacitor 8 Native (iOS &amp; Android) • React Native Expo • 60 FPS Three.js Globe</text>
+
+    <!-- Key Architecture Feature Badges -->
+    <g transform="translate(0, 162)">
+      <!-- Multi-LLM Fallback -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="175" height="32" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+        <text x="87" y="20" text-anchor="middle" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">🧠 Multi-LLM Matrix</text>
+      </g>
+      <!-- Offline-First Dexie -->
+      <g transform="translate(187, 0)">
+        <rect x="0" y="0" width="180" height="32" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+        <text x="90" y="20" text-anchor="middle" fill="#f59e0b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">📶 Offline Dexie Store</text>
+      </g>
+      <!-- Universal Runtime -->
+      <g transform="translate(379, 0)">
+        <rect x="0" y="0" width="195" height="32" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+        <text x="97" y="20" text-anchor="middle" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">📱 Universal Monorepo</text>
+      </g>
+      <!-- Spatial Globe -->
+      <g transform="translate(586, 0)">
+        <rect x="0" y="0" width="180" height="32" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+        <text x="90" y="20" text-anchor="middle" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">🌐 60 FPS 3D Engine</text>
+      </g>
+    </g>
+  </g>
+</svg>
