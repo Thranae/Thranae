@@ -2,7 +2,7 @@
 
 <!-- Bespoke Aerospace / Linear-style Header Banner -->
 <a href="https://github.com/Thranae">
-  <img src="profile-banner.png" width="100%" alt="Thranaeswanth S Engineering Banner" />
+  <img src="https://raw.githubusercontent.com/Thranae/Thranae/main/profile-banner.png" width="100%" alt="Thranaeswanth S Engineering Banner" />
 </a>
 
 <br />
