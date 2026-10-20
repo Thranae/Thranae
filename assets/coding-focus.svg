@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" height="200" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="cfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040711" />
+      <stop offset="60%" stop-color="#0a1224" />
+      <stop offset="100%" stop-color="#03050a" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="cfBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="35%" stop-color="#818cf8" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#c084fc" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.3" />
+    </linearGradient>
+
+    <radialGradient id="cfGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Keyframe Animations for Equalizer & Pulsing -->
+    <style>
+      @keyframes eqBounce1 { 0%, 100% { height: 8px; } 50% { height: 38px; } }
+      @keyframes eqBounce2 { 0%, 100% { height: 32px; } 50% { height: 12px; } }
+      @keyframes eqBounce3 { 0%, 100% { height: 18px; } 50% { height: 46px; } }
+      @keyframes eqBounce4 { 0%, 100% { height: 42px; } 50% { height: 10px; } }
+      @keyframes eqBounce5 { 0%, 100% { height: 14px; } 50% { height: 34px; } }
+      @keyframes beamSlide {
+        0% { stroke-dashoffset: 1400; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes beaconBlink {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.85); }
+      }
+      .laser-running {
+        stroke-dasharray: 200, 1200;
+        animation: beamSlide 6s linear infinite;
+      }
+      .beacon-active {
+        animation: beaconBlink 1.8s ease-in-out infinite;
+      }
+      .eq-b1 { animation: eqBounce1 0.9s ease-in-out infinite; }
+      .eq-b2 { animation: eqBounce2 0.75s ease-in-out infinite; }
+      .eq-b3 { animation: eqBounce3 1.1s ease-in-out infinite; }
+      .eq-b4 { animation: eqBounce4 0.85s ease-in-out infinite; }
+      .eq-b5 { animation: eqBounce5 1.0s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Card Body -->
+  <rect x="6" y="6" width="1188" height="188" rx="20" fill="url(#cfBg)" />
+  <circle cx="600" cy="100" r="300" fill="url(#cfGlow)" />
+
+  <!-- Borders -->
+  <rect x="6" y="6" width="1188" height="188" rx="20" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  <rect x="6" y="6" width="1188" height="188" rx="20" fill="none" stroke="url(#cfBorderGrad)" stroke-width="2" class="laser-running" />
+
+  <!-- Header Mini Controls -->
+  <g transform="translate(32, 28)">
+    <circle cx="0" cy="0" r="5" fill="#ef4444" />
+    <circle cx="16" cy="0" r="5" fill="#f59e0b" />
+    <circle cx="32" cy="0" r="5" fill="#10b981" />
+    <text x="56" y="4" fill="#94a3b8" font-family="monospace" font-size="11" letter-spacing="1.5">TERMINAL FOCUS // LIVE STATUS LOG</text>
+  </g>
+
+  <!-- Left: Audio Equalizer (Flow State Visualizer) -->
+  <g transform="translate(48, 120)">
+    <!-- Equalizer Background Box -->
+    <rect x="-14" y="-55" width="168" height="72" rx="10" fill="#080d1a" stroke="#1e293b" stroke-width="1" />
+    <!-- 12 Equalizer Bars -->
+    <rect x="0" y="0" width="6" height="24" rx="3" fill="#38bdf8" transform="scale(1, -1)" class="eq-b1" />
+    <rect x="12" y="0" width="6" height="38" rx="3" fill="#38bdf8" transform="scale(1, -1)" class="eq-b3" />
+    <rect x="24" y="0" width="6" height="16" rx="3" fill="#60a5fa" transform="scale(1, -1)" class="eq-b2" />
+    <rect x="36" y="0" width="6" height="42" rx="3" fill="#818cf8" transform="scale(1, -1)" class="eq-b4" />
+    <rect x="48" y="0" width="6" height="28" rx="3" fill="#818cf8" transform="scale(1, -1)" class="eq-b1" />
+    <rect x="60" y="0" width="6" height="46" rx="3" fill="#a855f7" transform="scale(1, -1)" class="eq-b3" />
+    <rect x="72" y="0" width="6" height="34" rx="3" fill="#c084fc" transform="scale(1, -1)" class="eq-b5" />
+    <rect x="84" y="0" width="6" height="18" rx="3" fill="#c084fc" transform="scale(1, -1)" class="eq-b2" />
+    <rect x="96" y="0" width="6" height="40" rx="3" fill="#818cf8" transform="scale(1, -1)" class="eq-b4" />
+    <rect x="108" y="0" width="6" height="22" rx="3" fill="#60a5fa" transform="scale(1, -1)" class="eq-b1" />
+    <rect x="120" y="0" width="6" height="35" rx="3" fill="#38bdf8" transform="scale(1, -1)" class="eq-b3" />
+    <rect x="132" y="0" width="6" height="15" rx="3" fill="#38bdf8" transform="scale(1, -1)" class="eq-b5" />
+    <text x="70" y="-38" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9" font-weight="700" letter-spacing="1">FLOW STATE</text>
+  </g>
+
+  <!-- Center: Information Hierarchy -->
+  <g transform="translate(235, 68)">
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="700" letter-spacing="2">ACTIVE OBJECTIVE &gt;</text>
+      <text x="145" y="0" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Architecting Autonomous Travel Operating Systems &amp; Self-Healing AI Networks</text>
+    </g>
+
+    <g transform="translate(0, 28)">
+      <text x="0" y="0" fill="#a855f7" font-family="monospace" font-size="11" font-weight="700" letter-spacing="2">CURRENT RESEARCH &gt;</text>
+      <text x="165" y="0" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="500">Edge LLM Quantization • CRDTs for Distributed Consensus • Three.js WebGL Performance</text>
+    </g>
+
+    <g transform="translate(0, 56)">
+      <text x="0" y="0" fill="#10b981" font-family="monospace" font-size="11" font-weight="700" letter-spacing="2">CORE PRINCIPLE &gt;</text>
+      <text x="145" y="0" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="500">Every mutation must be local-first; every external service must have deterministic failovers.</text>
+    </g>
+  </g>
+
+  <!-- Right: Status Badge -->
+  <g transform="translate(980, 78)">
+    <rect x="0" y="0" width="180" height="52" rx="14" fill="#091224" stroke="#1e3a5f" stroke-width="1.2" />
+    <circle cx="20" cy="26" r="4.5" fill="#10b981" class="beacon-active" />
+    <text x="34" y="22" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="800" letter-spacing="1.2">SYSTEM STATUS</text>
+    <text x="34" y="38" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">Open to Impact</text>
+  </g>
+</svg>
