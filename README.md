@@ -5,23 +5,18 @@
   <img src="./assets/profile-header.svg" width="100%" alt="Thranaeswanth S — Full-Stack Systems & AI Solutions Engineer" />
 </a>
 
-<br />
-
 <!-- Dynamic Animated Typing Subtitle -->
 <a href="https://github.com/Thranae">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=780&height=32&lines=Full-Stack+Systems+%26+AI+Solutions+Engineer;Creator+of+PackWise+AI+%E2%80%A2+Autonomous+Travel+OS;Architect+of+NEARO+%E2%80%A2+Hyperlocal+Geo-Proximity+Engine;Offline-First+State+Reconciliation+%E2%80%A2+Sub-4ms+Latency;Multi-LLM+Failover+Routers+%E2%80%A2+Gemini+%E2%80%A2+Groq+%E2%80%A2+GPT-4o;Universal+Codebases+%E2%80%A2+React+19+%E2%80%A2+Capacitor+8+%E2%80%A2+Expo" alt="Dynamic Typing Subtitle" />
 </a>
 
-<br />
-
-<!-- Clean Minimal Status Badges -->
-[![GitHub](https://img.shields.io/badge/GITHUB-Thranae-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Thranae)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thranaeswanth)
-[![Flagship](https://img.shields.io/badge/FLAGSHIP-PackWise%20AI-2563EB?style=flat-square&logo=googlemaps&logoColor=white)](https://github.com/Thranae/packwise#readme)
-[![Geospatial](https://img.shields.io/badge/GEOSPATIAL-NEARO%20Platform-10B981?style=flat-square&logo=openstreetmap&logoColor=white)](https://github.com/Thranae/NEARO)
-[![Status](https://img.shields.io/badge/STATUS-Engineering%20Resilient%20Systems-38BDF8?style=flat-square)](https://github.com/Thranae)
-
-<br /><br />
+<p align="center">
+  <a href="https://github.com/Thranae"><img src="https://img.shields.io/badge/GITHUB-Thranae-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/thranaeswanth"><img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/Thranae/packwise#readme"><img src="https://img.shields.io/badge/FLAGSHIP-PackWise%20AI-2563EB?style=flat-square&logo=googlemaps&logoColor=white" alt="PackWise AI" /></a>
+  <a href="https://github.com/Thranae/NEARO"><img src="https://img.shields.io/badge/GEOSPATIAL-NEARO%20Platform-10B981?style=flat-square&logo=openstreetmap&logoColor=white" alt="NEARO" /></a>
+  <a href="https://github.com/Thranae"><img src="https://img.shields.io/badge/STATUS-Open%20for%20Opportunities-38BDF8?style=flat-square" alt="Status" /></a>
+</p>
 
 <p align="center">
   Systems engineer focused on high-performance distributed architectures, offline-first client storage engines, geospatial computing, and autonomous multi-LLM orchestration. Committed to sub-16ms response budgets, resilient fault-tolerance, and robust data integrity across volatile real-world networks.
@@ -87,8 +82,6 @@ const thranae: SoftwareEngineer = {
 
 ### 🚀 Featured Engineering Projects
 
-<br />
-
 #### 1. 🌐 [PackWise AI](https://github.com/Thranae/packwise#readme) — The Autonomous Travel Operating System
 
 <div align="center">
@@ -97,23 +90,19 @@ const thranae: SoftwareEngineer = {
   <img src="./assets/packwise-banner.svg" width="100%" alt="PackWise AI Flagship Banner" />
 </a>
 
-<br /><br />
-
-[![CI Build](https://img.shields.io/github/actions/workflow/status/Thranae/packwise/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=CI%20BUILD)](https://github.com/Thranae/packwise/actions)
-[![React 19](https://img.shields.io/badge/FRONTEND-REACT%2019%20%2B%20VITE%206-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
-[![Dexie.js](https://img.shields.io/badge/OFFLINE--FIRST-DEXIE.JS%20INDEXEDDB-F59E0B?style=flat-square&logo=databricks&logoColor=white)](https://dexie.org/)
-[![Mobile](https://img.shields.io/badge/MOBILE-CAPACITOR%208%20%26%20EXPO-1192EE?style=flat-square&logo=capacitor&logoColor=white)](https://capacitorjs.com/)
-[![Multi-LLM](https://img.shields.io/badge/AI-MULTI--LLM%20FAILOVER-8B5CF6?style=flat-square&logo=openai&logoColor=white)](https://github.com/Thranae/packwise#readme)
-
-<br />
+<p align="center">
+  <a href="https://github.com/Thranae/packwise/actions"><img src="https://img.shields.io/github/actions/workflow/status/Thranae/packwise/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=CI%20BUILD" alt="CI Build" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/FRONTEND-REACT%2019%20%2B%20VITE%206-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" /></a>
+  <a href="https://dexie.org/"><img src="https://img.shields.io/badge/OFFLINE--FIRST-DEXIE.JS%20INDEXEDDB-F59E0B?style=flat-square&logo=databricks&logoColor=white" alt="Dexie.js" /></a>
+  <a href="https://capacitorjs.com/"><img src="https://img.shields.io/badge/MOBILE-CAPACITOR%208%20%26%20EXPO-1192EE?style=flat-square&logo=capacitor&logoColor=white" alt="Mobile" /></a>
+  <a href="https://github.com/Thranae/packwise#readme"><img src="https://img.shields.io/badge/AI-MULTI--LLM%20FAILOVER-8B5CF6?style=flat-square&logo=openai&logoColor=white" alt="Multi-LLM" /></a>
+</p>
 
 <a href="https://github.com/Thranae/packwise#readme">
   <img src="./assets/app-preview.jpg" alt="PackWise AI Application Interface Showcase" width="95%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.12); box-shadow: 0 16px 40px rgba(0,0,0,0.4);" />
 </a>
 
 </div>
-
-<br />
 
 PackWise is an enterprise-grade travel operating system engineered from first principles for volatile real-world networks (subways, transatlantic flights, remote destinations).
 
@@ -124,19 +113,15 @@ PackWise is an enterprise-grade travel operating system engineered from first pr
 
 <div align="center">
   <a href="https://github.com/Thranae/packwise#readme">
-    <img src="https://img.shields.io/badge/📖_OPEN_PACKWISE_README-READ_DOCS_FIRST-2563EB?style=for-the-badge&logo=github&logoColor=white" height="38" alt="Open PackWise README" />
+    <img src="https://img.shields.io/badge/📖_OPEN_PACKWISE_README-READ_DOCS_FIRST-2563EB?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Open PackWise README" />
   </a>
   &nbsp;&nbsp;
   <a href="https://codespaces.new/Thranae/packwise">
-    <img src="https://img.shields.io/badge/⚡_LAUNCH_IN-CODESPACES-181717?style=for-the-badge&logo=github&logoColor=white" height="38" alt="Launch in Codespaces" />
+    <img src="https://img.shields.io/badge/⚡_LAUNCH_IN-CODESPACES-181717?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Launch in Codespaces" />
   </a>
 </div>
 
-<br /><br />
-
 ---
-
-<br />
 
 #### 2. 📍 [NEARO](https://github.com/Thranae/NEARO) & [nearo-backend](https://github.com/Thranae/nearo-backend) — Hyperlocal Geo-Proximity & Discovery Engine
 
@@ -151,19 +136,15 @@ NEARO is a real-time, location-aware proximity platform engineered for instantan
 
 <div align="center">
   <a href="https://github.com/Thranae/NEARO">
-    <img src="https://img.shields.io/badge/EXPLORE-NEARO_WEB_CLIENT-10B981?style=for-the-badge&logo=github&logoColor=white" height="38" alt="Explore NEARO Web Client" />
+    <img src="https://img.shields.io/badge/EXPLORE-NEARO_WEB_CLIENT-10B981?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Explore NEARO Web Client" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Thranae/nearo-backend">
-    <img src="https://img.shields.io/badge/EXPLORE-NEARO_BACKEND_API-0F172A?style=for-the-badge&logo=nodejs&logoColor=white" height="38" alt="Explore NEARO Backend" />
+    <img src="https://img.shields.io/badge/EXPLORE-NEARO_BACKEND_API-0F172A?style=for-the-badge&logo=nodejs&logoColor=white" height="36" alt="Explore NEARO Backend" />
   </a>
 </div>
 
-<br /><br />
-
 ---
-
-<br />
 
 #### 3. 📚 [Library Management System](https://github.com/Thranae/Library-management-system) — Object-Oriented Architecture
 
@@ -174,11 +155,9 @@ A clean, modular Python application implementing object-oriented programming (OO
 
 <div align="center">
   <a href="https://github.com/Thranae/Library-management-system">
-    <img src="https://img.shields.io/badge/EXPLORE-LIBRARY_MANAGEMENT_SYSTEM-3776AB?style=for-the-badge&logo=python&logoColor=white" height="38" alt="Explore Library Management System" />
+    <img src="https://img.shields.io/badge/EXPLORE-LIBRARY_MANAGEMENT_SYSTEM-3776AB?style=for-the-badge&logo=python&logoColor=white" height="36" alt="Explore Library Management System" />
   </a>
 </div>
-
-<br />
 
 ---
 
@@ -194,25 +173,17 @@ A clean, modular Python application implementing object-oriented programming (OO
 | **Languages & Systems Core** | `TypeScript` `JavaScript (ESNext)` `Python` `SQL` | Strict end-to-end type safety, asynchronous concurrency, object-oriented domain models |
 | **Testing, CI/CD & Verification** | `GitHub Actions` `Playwright E2E` `Vitest` `Docker` `ESLint` | Automated multi-browser verification, unit test runner, containerized runtime environments |
 
-<br />
-
 ---
 
 ### 📊 GitHub Activity & Telemetry
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Thranae&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=60a5fa&text_color=e2e8f0" alt="Thranae's GitHub Stats" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Thranae&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=60a5fa&text_color=e2e8f0" alt="Thranae's GitHub Stats" height="165" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thranae&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0" alt="Top Languages" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thranae&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0" alt="Top Languages" height="165" />
+  &nbsp;&nbsp;
+  <img src="https://streak-stats.demolab.com/?user=Thranae&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=60a5fa&currStreakNum=38bdf8&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak Tracker" height="165" />
 </div>
-
-<br />
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Thranae&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=60a5fa&currStreakNum=38bdf8&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak Tracker" />
-</div>
-
-<br />
 
 ---
 
@@ -223,20 +194,18 @@ A clean, modular Python application implementing object-oriented programming (OO
 3. **Defense-in-Depth Security**: Avoid storing sensitive credentials in vulnerable localStorage. Use rotating HttpOnly cookies, sanitize every incoming payload, and enforce strict Content Security Policies.
 4. **Local-First Data Sovereignty**: Users should own their data directly on their local device before any server roundtrip is initiated.
 
-<br />
-
 ---
 
 <div align="center">
 
 ### 🤝 Let's Connect & Collaborate
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Thranaeswanth-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thranaeswanth)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:thranae7@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow%20@Thranae-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Thranae)
-[![Flagship](https://img.shields.io/badge/ReadMe-PackWise%20AI-2563EB?style=flat-square&logo=readme&logoColor=white)](https://github.com/Thranae/packwise#readme)
-
-<br /><br />
+<p align="center">
+  <a href="https://linkedin.com/in/thranaeswanth"><img src="https://img.shields.io/badge/LinkedIn-Thranaeswanth-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:thranae7@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/Thranae"><img src="https://img.shields.io/badge/GitHub-Follow%20@Thranae-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/Thranae/packwise#readme"><img src="https://img.shields.io/badge/ReadMe-PackWise%20AI-2563EB?style=flat-square&logo=readme&logoColor=white" alt="PackWise ReadMe" /></a>
+</p>
 
 <!-- Sleek Animated Cyber-Pulse Divider -->
 <img src="./assets/footer-divider.svg" width="100%" alt="Footer Divider" />
