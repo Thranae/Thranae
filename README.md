@@ -22,15 +22,15 @@
 
 <br /><br />
 
-<!-- Animated Real-Time Architecture & System Telemetry Radar (Live Oscilloscope + Signal Blips + HUD Counters) -->
+<!-- 3D Spatial Travel Globe & Autonomous Flight Matrix Core -->
 <a href="https://github.com/Thranae/packwise#readme">
-  <img src="./assets/system-telemetry.svg" width="100%" alt="Real-Time Architecture Radar & Telemetry Engine" style="border-radius: 20px;" />
+  <img src="./assets/orbital-core.svg" width="100%" alt="3D Spatial Travel Matrix & Orbital Flight Engine" style="border-radius: 20px;" />
 </a>
 
 <br /><br />
 
-<!-- Animated Flow State & Developer Focus Terminal -->
-<img src="./assets/coding-focus.svg" width="100%" alt="Terminal Focus & Flow State Log" style="border-radius: 18px;" />
+<!-- In-Flight & Zero-Packet Offline State Reconciliation Simulator -->
+<img src="./assets/offline-simulator.svg" width="100%" alt="Offline-First Distributed State Reconciliation Simulator" style="border-radius: 18px;" />
 
 <br /><br />
 
