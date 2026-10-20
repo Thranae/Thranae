@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="380" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="nearoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#08142b" />
+      <stop offset="100%" stop-color="#010308" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="nearoLaserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3" />
+      <stop offset="30%" stop-color="#06b6d4" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#8b5cf6" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="nearoTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#f0fdf4" />
+      <stop offset="70%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+
+    <!-- Radar Beacon Gradient -->
+    <radialGradient id="radarPulseGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#06b6d4" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#08142b" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- 3D Convex Base Gradient for App Icon Tile -->
+    <linearGradient id="convexBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="35%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <linearGradient id="glassLens" x1="10%" y1="10%" x2="90%" y2="90%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.08" />
+    </linearGradient>
+
+    <!-- Subtle Radar Grid Pattern -->
+    <pattern id="nearoGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.35" />
+      <circle cx="36" cy="36" r="1" fill="#10b981" fill-opacity="0.25" />
+    </pattern>
+
+    <style>
+      @keyframes beamSlide {
+        0% { stroke-dashoffset: 2600; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes radarSpin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes pinBounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes waveExpand {
+        0% { r: 16; opacity: 1; }
+        100% { r: 64; opacity: 0; }
+      }
+      @keyframes beaconBlink {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.85); }
+      }
+      .laser-border {
+        stroke-dasharray: 260, 1900;
+        animation: beamSlide 7s linear infinite;
+      }
+      .radar-arm {
+        transform-origin: 180px 190px;
+        animation: radarSpin 4s linear infinite;
+      }
+      .pin-floating {
+        animation: pinBounce 3s ease-in-out infinite;
+      }
+      .pulse-wave-1 {
+        animation: waveExpand 2.8s ease-out infinite;
+      }
+      .pulse-wave-2 {
+        animation: waveExpand 2.8s ease-out infinite 1.4s;
+      }
+      .live-beacon {
+        animation: beaconBlink 1.8s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Chassis Background -->
+  <rect x="6" y="6" width="1188" height="368" rx="24" fill="url(#nearoBg)" />
+  <rect x="6" y="6" width="1188" height="368" rx="24" fill="url(#nearoGrid)" />
+
+  <!-- Chassis Border & Animated Laser Beam -->
+  <rect x="6" y="6" width="1188" height="368" rx="24" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  <rect x="6" y="6" width="1188" height="368" rx="24" fill="none" stroke="url(#nearoLaserGrad)" stroke-width="2" class="laser-border" />
+
+  <!-- Top System Ribbon -->
+  <g transform="translate(36, 32)">
+    <circle cx="0" cy="0" r="5" fill="#ef4444" />
+    <circle cx="16" cy="0" r="5" fill="#f59e0b" />
+    <circle cx="32" cy="0" r="5" fill="#10b981" />
+
+    <g transform="translate(68, -10)">
+      <rect x="0" y="0" width="310" height="22" rx="11" fill="#09152b" stroke="#1e3a5f" stroke-width="1" />
+      <circle cx="11" cy="11" r="3.5" fill="#10b981" class="live-beacon" />
+      <text x="22" y="15" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.5">HYPERLOCAL GEO-PROXIMITY // v1.0</text>
+    </g>
+
+    <text x="1128" y="4" text-anchor="end" fill="#64748b" font-family="monospace" font-size="10.5" letter-spacing="2">REAL-TIME SPATIAL ENGINE • SUB-10MS</text>
+  </g>
+
+  <!-- ==================== LEFT: 3D CONVEX RADAR PIN APPARATUS ==================== -->
+  <g transform="translate(180, 190)">
+    <!-- Ambient Radar Field -->
+    <circle cx="0" cy="0" r="95" fill="url(#radarPulseGrad)" />
+
+    <!-- Expanding Radar Rings -->
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#10b981" stroke-width="1.5" class="pulse-wave-1" />
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#06b6d4" stroke-width="1.5" class="pulse-wave-2" />
+
+    <!-- Static Concentric Radar Coordinate Rings -->
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="4, 4" />
+    <circle cx="0" cy="0" r="56" fill="none" stroke="#1e293b" stroke-width="1" />
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#1e3a5f" stroke-width="1" />
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="#1e293b" stroke-width="0.8" />
+    <line x1="0" y1="-80" x2="0" y2="80" stroke="#1e293b" stroke-width="0.8" />
+
+    <!-- Sweeping Radar Scanner Arm -->
+    <g class="radar-arm">
+      <path d="M 0 0 L 80 0 A 80 80 0 0 1 0 80 Z" fill="url(#radarPulseGrad)" opacity="0.6" />
+      <line x1="0" y1="0" x2="80" y2="0" stroke="#34d399" stroke-width="2" />
+    </g>
+
+    <!-- 3D Floating Location Pin -->
+    <g class="pin-floating" transform="translate(0, -6)">
+      <!-- Drop Shadow -->
+      <ellipse cx="0" cy="30" rx="14" ry="4" fill="#000000" opacity="0.4" />
+
+      <!-- Pin Base / Body -->
+      <path d="M 0 24 C -16 6 -20 -8 -20 -18 C -20 -29 -11 -38 0 -38 C 11 -38 20 -29 20 -18 C 20 -8 16 6 0 24 Z" fill="url(#convexBase)" filter="drop-shadow(0 10px 18px rgba(16, 185, 129, 0.4))" />
+      <!-- Inner Glowing Core -->
+      <circle cx="0" cy="-18" r="8" fill="#10b981" />
+      <circle cx="0" cy="-18" r="4" fill="#ffffff" />
+      <!-- Glass Specular Highlight -->
+      <path d="M -16 -24 C -12 -34 0 -36 10 -34 C 4 -32 -6 -28 -12 -20 Z" fill="url(#glassLens)" opacity="0.8" />
+    </g>
+
+    <!-- Surrounding Member Nodes (Pulsing Blips) -->
+    <g transform="translate(45, -35)">
+      <circle cx="0" cy="0" r="3" fill="#38bdf8" />
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#38bdf8" stroke-width="0.8" opacity="0.6" />
+    </g>
+    <g transform="translate(-48, 28)">
+      <circle cx="0" cy="0" r="3" fill="#a855f7" />
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#a855f7" stroke-width="0.8" opacity="0.6" />
+    </g>
+    <g transform="translate(36, 48)">
+      <circle cx="0" cy="0" r="3" fill="#f59e0b" />
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#f59e0b" stroke-width="0.8" opacity="0.6" />
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT: BRAND IDENTITY & CORE ARCHITECTURE ==================== -->
+  <g transform="translate(340, 115)">
+    <!-- Sub-badge / Eyebrow -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="340" height="26" rx="13" fill="rgba(16, 185, 129, 0.1)" stroke="rgba(16, 185, 129, 0.35)" stroke-width="1" />
+      <text x="16" y="17" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="2">REAL-TIME PROXIMITY OPERATING SYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="66" fill="url(#nearoTitleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="48" font-weight="900" letter-spacing="3">NEARO</text>
+
+    <!-- Tagline -->
+    <text x="0" y="104" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600">
+      Hyperlocal Discovery, Proximity Clustering &amp; Real-Time Geo-Intelligence
+    </text>
+
+    <text x="0" y="130" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400">
+      Engineered with Leaflet GIS vector layers • Spatial Haversine indexing • Compromise NLP semantic router
+    </text>
+
+    <!-- Capability Chips / Technology Pills -->
+    <g transform="translate(0, 155)">
+      <!-- Leaflet GIS -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="125" height="28" rx="8" fill="#091426" stroke="#1e293b" stroke-width="1" />
+        <text x="12" y="18" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">📍 Leaflet GIS</text>
+      </g>
+      <!-- Haversine Engine -->
+      <g transform="translate(135, 0)">
+        <rect x="0" y="0" width="145" height="28" rx="8" fill="#091426" stroke="#1e293b" stroke-width="1" />
+        <text x="12" y="18" fill="#22d3ee" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">⚡ Spatial Haversine</text>
+      </g>
+      <!-- Compromise NLP -->
+      <g transform="translate(290, 0)">
+        <rect x="0" y="0" width="150" height="28" rx="8" fill="#091426" stroke="#1e293b" stroke-width="1" />
+        <text x="12" y="18" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">🧠 Compromise NLP</text>
+      </g>
+      <!-- Node.js MVC -->
+      <g transform="translate(450, 0)">
+        <rect x="0" y="0" width="140" height="28" rx="8" fill="#091426" stroke="#1e293b" stroke-width="1" />
+        <text x="12" y="18" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">🚀 Express REST</text>
+      </g>
+      <!-- Dynamic Routing -->
+      <g transform="translate(600, 0)">
+        <rect x="0" y="0" width="155" height="28" rx="8" fill="#091426" stroke="#1e293b" stroke-width="1" />
+        <text x="12" y="18" fill="#f59e0b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">🧭 Turn-by-Turn GPS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Telemetry Ticker Ribbon -->
+  <g transform="translate(36, 335)">
+    <rect x="0" y="0" width="1128" height="22" rx="6" fill="#040914" stroke="#1e293b" stroke-width="0.8" />
+    <circle cx="16" cy="11" r="3" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="30" y="15" fill="#94a3b8" font-family="monospace" font-size="9.5" letter-spacing="1">
+      SPATIAL ENGINE: LIVE • HAVERSINE RADIUS QUERIES ARMED • GEOLOCATION WATCH ACTIVE • ZERO CLOUD LOCK-IN
+    </text>
+    <text x="1114" y="15" text-anchor="end" fill="#34d399" font-family="monospace" font-size="9.5" font-weight="700">
+      THRANAESWANTH // NEARO MONOREPO
+    </text>
+  </g>
+</svg>
