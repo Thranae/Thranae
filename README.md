@@ -42,6 +42,7 @@ interface SoftwareEngineer {
   keyProjects: {
     flagship: string;
     geospatial: string;
+    foundations: string;
   };
   stack: {
     frontend: string[];
@@ -67,7 +68,8 @@ const thranae: SoftwareEngineer = {
   ],
   keyProjects: {
     flagship: "PackWise AI — Autonomous Travel OS & Multi-LLM Spatial Intelligence",
-    geospatial: "NEARO — Real-Time Hyperlocal Geo-Proximity & Discovery Platform"
+    geospatial: "NEARO — Real-Time Hyperlocal Geo-Proximity & Discovery Platform",
+    foundations: "Library Management System — Object-Oriented Domain Architecture"
   },
   stack: {
     frontend: ["React 19", "Vite 6", "TailwindCSS v4", "Framer Motion"],
@@ -140,12 +142,12 @@ PackWise is an enterprise-grade travel operating system engineered from first pr
 
 NEARO is a real-time, location-aware proximity platform engineered for instantaneous discovery of nearby nodes, community services, and active local hubs.
 
-| Architecture Layer | Technical Specification |
-| :--- | :--- |
-| **Frontend Web Client** | Lightweight, high-responsiveness web application built for fast mobile browser rendering and dynamic location tracking ([Explore Repo](https://github.com/Thranae/NEARO)). |
-| **Geospatial API Engine** | Dedicated Node.js & Express RESTful service featuring spatial coordinate indexing, radius calculation queries, and distance clustering ([Explore Backend](https://github.com/Thranae/nearo-backend)). |
-| **Natural Language Routing** | Embedded lightweight NLP tokenizer (**Compromise**) for semantic extraction of user search intents without heavy external cloud overhead. |
-| **Real-Time Data Routing** | Modular service controllers managing authentication, live location streams, administrative telemetry, and peer communication routes. |
+| Architecture Layer | Core Technologies | Technical Specification & Implementation |
+| :--- | :--- | :--- |
+| **Frontend Web Client** | `React` `Vite` `Geolocation API` `Tailwind` | Lightweight, high-responsiveness web application built for fast mobile browser rendering and dynamic location tracking ([Explore Repo](https://github.com/Thranae/NEARO)). |
+| **Geospatial API Engine** | `Node.js` `Express.js` `PostgreSQL` | Dedicated backend service featuring spatial coordinate indexing, radius calculation queries, and distance clustering ([Explore Backend](https://github.com/Thranae/nearo-backend)). |
+| **Natural Language Routing** | `Compromise NLP` `Pattern Matching` | Embedded lightweight NLP tokenizer for semantic extraction of user search intents without heavy external cloud overhead. |
+| **Real-Time Data Routing** | `Express Router` `JWT` `Connection Pool` | Modular service controllers managing authentication, live location streams, administrative telemetry, and peer communication routes. |
 
 <div align="center">
   <a href="https://github.com/Thranae/NEARO">
@@ -170,31 +172,27 @@ A clean, modular Python application implementing object-oriented programming (OO
 * **Domain-Driven Design**: Clean separation between entity definitions, inventory repositories, and transaction managers.
 * **State & Transaction Validation**: Automated handling of checkouts, overdue penalty calculations, and member validation.
 
-<br />
-
----
-
-### 🛠️ Technical Arsenal & Ecosystem Matrix
-
 <div align="center">
-
-<a href="https://github.com/Thranae">
-  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,threejs,nodejs,express,mongodb,postgres,docker,githubactions,ts,js,python,git,postman,figma,linux,androidstudio&perline=9&theme=dark" alt="Technical Arsenal Icons" />
-</a>
-
+  <a href="https://github.com/Thranae/Library-management-system">
+    <img src="https://img.shields.io/badge/EXPLORE-LIBRARY_MANAGEMENT_SYSTEM-3776AB?style=for-the-badge&logo=python&logoColor=white" height="38" alt="Explore Library Management System" />
+  </a>
 </div>
 
 <br />
 
-| Domain | Core Technologies, Frameworks & Libraries |
-| :--- | :--- |
-| **Languages & Fundamentals** | **TypeScript**, **JavaScript (ESNext)**, **Python**, **SQL**, **HTML5 / CSS3** |
-| **Frontend & 3D Spatial** | **React 19**, **Vite 6**, **Tailwind CSS v4**, **Three.js**, **React-Globe.gl**, **Framer Motion**, **MapLibre GL** |
-| **Mobile & Cross-Platform** | **Capacitor 8** (iOS & Android native bindings), **React Native Expo**, **Workbox PWA** |
-| **Backend & Gateways** | **Node.js**, **Express.js**, RESTful APIs, SSE (Server-Sent Events), Rotating JWT Security, Connection Pooling |
-| **Databases & Storage** | **Dexie.js (IndexedDB)** local store, **MongoDB Atlas**, **Mongoose ODM**, **PostgreSQL** |
-| **Autonomous AI & NLP** | **Google Gemini 2.5 Flash**, **Groq Llama 3**, **OpenAI GPT-4o**, **Mistral AI**, **Compromise NLP** |
-| **DevOps & Verification** | **GitHub Actions CI/CD**, **Playwright E2E**, **Vitest**, **Docker**, **ESLint** |
+---
+
+### 🛠️ Technical Architecture & Systems Stack
+
+| Architectural Tier | Technologies & Frameworks | System Role & Architectural Purpose |
+| :--- | :--- | :--- |
+| **Client & 3D Spatial Canvas** | `React 19` `Vite 6` `Three.js` `Tailwind v4` `Framer Motion` `MapLibre GL` | Sub-16ms GPU render loops, 60 FPS spatial globe, hardware-accelerated animations |
+| **Universal Native & Mobile** | `Capacitor 8` `React Native Expo` `Workbox PWA` | Native iOS/Android device bridge, background sync workers, offline application shell |
+| **Distributed Gateway & APIs** | `Node.js` `Express.js` `REST APIs` `SSE Streams` `JWT Token Rotation` | Non-blocking I/O gateway, HttpOnly security boundaries, real-time event streaming |
+| **Local-First & Data Engine** | `Dexie.js (IndexedDB)` `MongoDB Atlas` `PostgreSQL` `Mongoose ODM` | Sub-4ms optimistic client mutations, idempotent sync log, relational integrity |
+| **Autonomous AI & NLP Mesh** | `Google Gemini 2.5 Flash` `Groq Llama 3` `OpenAI GPT-4o` `Compromise NLP` | Schema-enforced JSON synthesis, sub-300ms chat, deterministic multi-LLM failover |
+| **Languages & Systems Core** | `TypeScript` `JavaScript (ESNext)` `Python` `SQL` | Strict end-to-end type safety, asynchronous concurrency, object-oriented domain models |
+| **Testing, CI/CD & Verification** | `GitHub Actions` `Playwright E2E` `Vitest` `Docker` `ESLint` | Automated multi-browser verification, unit test runner, containerized runtime environments |
 
 <br />
 
