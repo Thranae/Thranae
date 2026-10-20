@@ -9,42 +9,27 @@
 
 <!-- Dynamic Animated Typing Subtitle -->
 <a href="https://github.com/Thranae">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=780&height=35&lines=Building+Next-Gen+Autonomous+AI+Travel+Intelligence;Creator+of+PackWise+AI+%E2%80%A2+React+19+%E2%80%A2+Capacitor+8+%E2%80%A2+Expo;Multi-LLM+Self-Healing+Failover+Router;Offline-First+IndexedDB+Distributed+Sync+Engine;60+FPS+Spatial+Computing+%E2%80%A2+Three.js+3D+Globes;Sub-16ms+Latency+%E2%80%A2+Zero-Downtime+Architecture" alt="Dynamic Typing Subtitle" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=780&height=32&lines=Full-Stack+Systems+%26+AI+Solutions+Engineer;Creator+of+PackWise+AI+%E2%80%A2+Autonomous+Travel+OS;Architect+of+NEARO+%E2%80%A2+Hyperlocal+Geo-Proximity+Engine;Offline-First+State+Reconciliation+%E2%80%A2+Sub-4ms+Latency;Multi-LLM+Failover+Routers+%E2%80%A2+Gemini+%E2%80%A2+Groq+%E2%80%A2+GPT-4o;Universal+Codebases+%E2%80%A2+React+19+%E2%80%A2+Capacitor+8+%E2%80%A2+Expo" alt="Dynamic Typing Subtitle" />
 </a>
 
 <br />
 
-<!-- Profile Header Badges -->
-[![GitHub](https://img.shields.io/badge/GITHUB-Thranae-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Thranae)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thranaeswanth)
-[![Flagship Project](https://img.shields.io/badge/FLAGSHIP-PackWise%20AI-2563EB?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Thranae/packwise#readme)
-[![Engineering Status](https://img.shields.io/badge/STATUS-Engineering%20Intelligent%20Systems-10B981?style=for-the-badge)](https://github.com/Thranae)
-
-<br /><br />
-
-<!-- 3D Spatial Travel Globe & Autonomous Flight Matrix Core -->
-<a href="https://github.com/Thranae/packwise#readme">
-  <img src="./assets/orbital-core.svg" width="100%" alt="3D Spatial Travel Matrix & Orbital Flight Engine" style="border-radius: 20px;" />
-</a>
-
-<br /><br />
-
-<!-- In-Flight & Zero-Packet Offline State Reconciliation Simulator -->
-<img src="./assets/offline-simulator.svg" width="100%" alt="Offline-First Distributed State Reconciliation Simulator" style="border-radius: 18px;" />
+<!-- Clean Minimal Status Badges -->
+[![GitHub](https://img.shields.io/badge/GITHUB-Thranae-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Thranae)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thranaeswanth)
+[![Flagship](https://img.shields.io/badge/FLAGSHIP-PackWise%20AI-2563EB?style=flat-square&logo=googlemaps&logoColor=white)](https://github.com/Thranae/packwise#readme)
+[![Geospatial](https://img.shields.io/badge/GEOSPATIAL-NEARO%20Platform-10B981?style=flat-square&logo=openstreetmap&logoColor=white)](https://github.com/Thranae/NEARO)
+[![Status](https://img.shields.io/badge/STATUS-Engineering%20Resilient%20Systems-38BDF8?style=flat-square)](https://github.com/Thranae)
 
 <br /><br />
 
 <p align="center">
-  <i>"Resilient by default. High-performance by design. Obsessed with 60 FPS interactions and offline-first software that never breaks."</i>
+  Systems engineer focused on high-performance distributed architectures, offline-first client storage engines, geospatial computing, and autonomous multi-LLM orchestration. Committed to sub-16ms response budgets, resilient fault-tolerance, and robust data integrity across volatile real-world networks.
 </p>
 
 </div>
 
-<br />
-
-<img src="./assets/laser-divider.svg" width="100%" alt="Section Divider" />
-
-<br />
+---
 
 ### 👨‍💻 Engineering Identity & Architecture Stack
 
@@ -54,17 +39,16 @@ interface SoftwareEngineer {
   title: string;
   location: string;
   focusAreas: string[];
-  flagship: {
-    name: string;
-    readmeUrl: string;
-    architecture: string;
+  keyProjects: {
+    flagship: string;
+    geospatial: string;
   };
   stack: {
     frontend: string[];
-    spatial3D: string[];
+    spatialAndGeo: string[];
     mobile: string[];
     backend: string[];
-    offlineEngine: string[];
+    offlineAndData: string[];
     intelligence: string[];
     verification: string[];
   };
@@ -75,178 +59,148 @@ const thranae: SoftwareEngineer = {
   title: "Full-Stack Systems & AI Solutions Engineer",
   location: "India",
   focusAreas: [
-    "Autonomous Multi-LLM Orchestration & Failover Systems",
+    "Autonomous Multi-LLM Orchestration & Dynamic Failover Meshes",
     "Offline-First Distributed Sync with Local IndexedDB (Dexie)",
+    "Real-Time Geospatial Indexing & Proximity Projections",
     "60 FPS Spatial Computing & 3D Interactive Globes (Three.js)",
     "Universal Tri-Platform Codebases (Web PWA, iOS, Android)"
   ],
-  flagship: {
-    name: "PackWise AI",
-    readmeUrl: "https://github.com/Thranae/packwise#readme",
-    architecture: "Decoupled Local-First Client Mesh with Self-Healing Multi-LLM Gateway"
+  keyProjects: {
+    flagship: "PackWise AI — Autonomous Travel OS & Multi-LLM Spatial Intelligence",
+    geospatial: "NEARO — Real-Time Hyperlocal Geo-Proximity & Discovery Platform"
   },
   stack: {
     frontend: ["React 19", "Vite 6", "TailwindCSS v4", "Framer Motion"],
-    spatial3D: ["Three.js", "React-Globe.gl", "MapLibre GL", "Spring Physics"],
+    spatialAndGeo: ["Three.js", "React-Globe.gl", "MapLibre GL", "Geospatial Indexing", "Haversine Algorithms"],
     mobile: ["Capacitor 8", "React Native Expo", "Workbox PWA"],
-    backend: ["Node.js", "Express.js", "MongoDB Atlas", "JWT Token Rotation", "SSE"],
-    offlineEngine: ["Dexie.js (IndexedDB)", "Idempotent Sync Queue", "Optimistic State Mutation"],
-    intelligence: ["Google Gemini 2.5 Flash", "Groq Llama 3", "OpenAI GPT-4o", "Mistral AI"],
+    backend: ["Node.js", "Express.js", "PostgreSQL", "MongoDB Atlas", "JWT Rotation", "SSE"],
+    offlineAndData: ["Dexie.js (IndexedDB)", "Idempotent Sync Queue", "Optimistic State Mutation"],
+    intelligence: ["Google Gemini 2.5 Flash", "Groq Llama 3", "OpenAI GPT-4o", "Mistral AI", "Compromise NLP"],
     verification: ["GitHub Actions CI", "Playwright E2E", "Vitest", "ESLint", "Docker"]
   }
 };
 ```
 
+---
+
+### 🚀 Featured Engineering Projects
+
 <br />
 
-<img src="./assets/laser-divider.svg" width="100%" alt="Section Divider" />
-
-<br />
-
-### 🛠️ Dynamic Technical Arsenal & Capabilities
+#### 1. 🌐 [PackWise AI](https://github.com/Thranae/packwise#readme) — The Autonomous Travel Operating System
 
 <div align="center">
 
-<!-- Animated Interactive Skill Matrix -->
-<a href="https://github.com/Thranae">
-  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,threejs,nodejs,express,mongodb,docker,githubactions,ts,js,python,git,postman,figma,linux,androidstudio&perline=9&theme=dark" alt="Technical Arsenal Icons" />
-</a>
-
-</div>
-
-<br />
-
-| Capability Domain | Technologies, Frameworks & Deep Implementations |
-| :--- | :--- |
-| **🧠 Autonomous AI & Multi-Model Mesh** | **Google Gemini 2.5 Flash** (Schema-constrained JSON synthesis), **Groq Llama 3** (Sub-300ms real-time chat), **OpenAI GPT-4o** (Autonomous reasoning fallback), **Mistral AI** (Self-healing failover), SSE streaming token pipeline. |
-| **⚡ Frontend & 3D Spatial Canvas** | **React 19**, **Vite 6**, **Tailwind CSS v4**, **Three.js**, **React-Globe.gl**, **Framer Motion**, **MapLibre GL** dark vector tiles, sub-16ms GPU render loops. |
-| **📶 Distributed Storage & Offline Sync** | **Dexie.js (IndexedDB)** local-first schema, idempotent mutation logs, optimistic zero-latency UI updates, automatic reconciliation upon network reconnection, **MongoDB Atlas** backend persistence. |
-| **📱 Cross-Platform Universal Runtime** | **Capacitor 8** native hardware bindings (iOS & Android), **React Native Expo** architecture, **Workbox PWA** service workers with background sync capabilities. |
-| **🛡️ Hardened Backend & Gateways** | **Node.js**, **Express.js**, dual-JWT authentication with rotating refresh tokens stored in `HttpOnly` / `SameSite=Strict` cookies, NoSQL injection sanitization (`express-mongo-sanitize`), `helmet` CSP protection. |
-| **🧪 Testing, Verification & CI/CD** | **GitHub Actions** automated test matrix, **Playwright** end-to-end multi-browser test harness, **Vitest** unit testing, **Docker** containerized environments. |
-
-<br />
-
-<img src="./assets/laser-divider.svg" width="100%" alt="Section Divider" />
-
-<br />
-
-### 🌟 Featured Flagship Project: PackWise AI
-
-<div align="center">
-
-<!-- Banner links straight to PackWise README -->
 <a href="https://github.com/Thranae/packwise#readme">
   <img src="./assets/packwise-banner.svg" width="100%" alt="PackWise AI Flagship Banner" />
 </a>
 
 <br /><br />
 
-[![CI Build](https://img.shields.io/github/actions/workflow/status/Thranae/packwise/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI%20BUILD)](https://github.com/Thranae/packwise/actions)
-[![React 19](https://img.shields.io/badge/FRONTEND-REACT%2019%20%2B%20VITE%206-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Dexie.js](https://img.shields.io/badge/OFFLINE--FIRST-DEXIE.JS%20INDEXEDDB-F59E0B?style=for-the-badge&logo=databricks&logoColor=white)](https://dexie.org/)
-[![Mobile](https://img.shields.io/badge/MOBILE-CAPACITOR%208%20%26%20EXPO-1192EE?style=for-the-badge&logo=capacitor&logoColor=white)](https://capacitorjs.com/)
-[![Multi-LLM](https://img.shields.io/badge/AI-MULTI--LLM%20FAILOVER-8B5CF6?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/Thranae/packwise#readme)
+[![CI Build](https://img.shields.io/github/actions/workflow/status/Thranae/packwise/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=CI%20BUILD)](https://github.com/Thranae/packwise/actions)
+[![React 19](https://img.shields.io/badge/FRONTEND-REACT%2019%20%2B%20VITE%206-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![Dexie.js](https://img.shields.io/badge/OFFLINE--FIRST-DEXIE.JS%20INDEXEDDB-F59E0B?style=flat-square&logo=databricks&logoColor=white)](https://dexie.org/)
+[![Mobile](https://img.shields.io/badge/MOBILE-CAPACITOR%208%20%26%20EXPO-1192EE?style=flat-square&logo=capacitor&logoColor=white)](https://capacitorjs.com/)
+[![Multi-LLM](https://img.shields.io/badge/AI-MULTI--LLM%20FAILOVER-8B5CF6?style=flat-square&logo=openai&logoColor=white)](https://github.com/Thranae/packwise#readme)
 
 <br />
 
-<!-- App Preview linking directly to PackWise README -->
 <a href="https://github.com/Thranae/packwise#readme">
-  <img src="./assets/app-preview.jpg" alt="PackWise AI Application Interface Showcase" width="95%" style="border-radius: 20px; border: 1px solid rgba(255,255,255,0.12); box-shadow: 0 20px 50px rgba(0,0,0,0.5);" />
-</a>
-
-<br /><br />
-
-<p align="center">
-  <b>PackWise</b> is an enterprise-grade travel operating system engineered for volatile real-world connectivity. Powered by a self-healing multi-LLM orchestrator, local-first IndexedDB reconciliation, 60 FPS 3D spatial mapping, and universal execution across Web PWA, iOS, and Android.
-</p>
-
-<!-- 1-Click README Direct Action Button -->
-<a href="https://github.com/Thranae/packwise#readme">
-  <img src="https://img.shields.io/badge/📖_OPEN_PACKWISE_README-FIRST_CLASS_EXPERIENCE-2563EB?style=for-the-badge&logo=github&logoColor=white" height="42" alt="Open PackWise README" />
-</a>
-&nbsp;&nbsp;
-<a href="https://codespaces.new/Thranae/packwise">
-  <img src="https://img.shields.io/badge/⚡_LAUNCH_IN-CODESPACES-181717?style=for-the-badge&logo=github&logoColor=white" height="42" alt="Launch in Codespaces" />
+  <img src="./assets/app-preview.jpg" alt="PackWise AI Application Interface Showcase" width="95%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.12); box-shadow: 0 16px 40px rgba(0,0,0,0.4);" />
 </a>
 
 </div>
 
 <br />
 
-| Architectural Pillar | Traditional Travel Software | PackWise Autonomous OS Implementation |
-| :--- | :--- | :--- |
-| **🧠 Multi-LLM Fallback Engine** | Single API endpoint (Crashes on HTTP 429/500 rate limits) | **Google Gemini 2.5 Flash** for strict JSON itineraries, **Groq Llama 3** for sub-300ms interactive chat, automatically failing over to **OpenAI GPT-4o** and **Mistral AI** on API errors or quota limits. |
-| **📶 Offline-First Distributed Sync** | Network-dependent (Blank screens and blocked UI when offline) | **Dexie.js (IndexedDB)** local store commits mutations in < 4ms. Mutations queue into an idempotent operation log that reconciles with MongoDB Atlas when reconnected. |
-| **🌐 3D Spatial Canvas & Telemetry** | Flat static forms and slow map loads | Immersive global travel intelligence powered by **Three.js**, **React-Globe.gl**, and dark-mode **MapLibre GL** satellite vectors with spring physics and flight radar telemetry at **60 FPS locked**. |
-| **📱 Tri-Platform Native Distribution** | Fractured, fragmented codebases for web and mobile | Unified code sharing delivering a progressive web app (**Workbox PWA**), hardware-accelerated **Capacitor 8** native runtime for iOS/Android, and an **Expo** ecosystem. |
-| **🛡️ Hardened Security Architecture** | Vulnerable tokens stored in client localStorage | Dual-JWT authentication with rotating refresh tokens stored in secure `HttpOnly`, `SameSite=Strict` cookies, protected by automated NoSQL injection sanitization and strict CSP headers. |
+PackWise is an enterprise-grade travel operating system engineered from first principles for volatile real-world networks (subways, transatlantic flights, remote destinations).
+
+* **Offline-First Distributed Sync**: Local-first state mutations commit immediately to **Dexie.js (IndexedDB)** with sub-4ms optimistic latency. Mutations queue into an idempotent operation log and reconcile seamlessly with MongoDB Atlas upon network reconnection.
+* **Self-Healing Multi-LLM Orchestrator**: Eliminates single-vendor downtime via a resilient priority pipeline: **Google Gemini 2.5 Flash** for strict JSON itinerary generation, **Groq Llama 3** for sub-300ms chat, automatically falling back to **OpenAI GPT-4o** and **Mistral AI** on API errors or quota limits.
+* **60 FPS 3D Spatial Canvas**: Real-time travel mapping with **Three.js**, **React-Globe.gl**, and dark-mode **MapLibre GL** satellite vectors with spring physics and flight radar telemetry.
+* **Tri-Platform Code Sharing**: Shared architecture powering a progressive web app (**Workbox PWA**), hardware-accelerated **Capacitor 8** native runtime for iOS/Android, and an **Expo** React Native ecosystem.
+
+<div align="center">
+  <a href="https://github.com/Thranae/packwise#readme">
+    <img src="https://img.shields.io/badge/📖_OPEN_PACKWISE_README-READ_DOCS_FIRST-2563EB?style=for-the-badge&logo=github&logoColor=white" height="38" alt="Open PackWise README" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://codespaces.new/Thranae/packwise">
+    <img src="https://img.shields.io/badge/⚡_LAUNCH_IN-CODESPACES-181717?style=for-the-badge&logo=github&logoColor=white" height="38" alt="Launch in Codespaces" />
+  </a>
+</div>
+
+<br /><br />
+
+---
 
 <br />
 
-<details>
-<summary><b>🧬 Deep Dive: Multi-LLM Self-Healing Orchestration Architecture</b></summary>
+#### 2. 📍 [NEARO](https://github.com/Thranae/NEARO) & [nearo-backend](https://github.com/Thranae/nearo-backend) — Hyperlocal Geo-Proximity & Discovery Engine
 
-```
-              ┌──────────────────────────────────────────────┐
-              │          User Task Request / Prompt          │
-              └──────────────────────┬───────────────────────┘
-                                     │
-                     [ Multi-LLM Task Router ]
-                                     │
-         ┌───────────────────────────┴───────────────────────────┐
-         ▼                                                       ▼
- ┌───────────────┐                                       ┌───────────────┐
- │ Gemini 2.5    │ ◄─── Primary (Structured JSON)        │ Groq Llama 3  │ ◄─── Primary (Sub-300ms Chat)
- └───────┬───────┘                                       └───────┬───────┘
-         │ (Rate Limit / Timeout)                                │ (Timeout)
-         ▼                                                       ▼
- ┌───────────────┐                                       ┌───────────────┐
- │ OpenAI GPT-4o │ ◄─── Secondary Fallback               │ Mistral AI    │ ◄─── Secondary Fallback
- └───────┬───────┘                                       └───────┬───────┘
-         │                                                       │
-         └───────────────────────────┬───────────────────────────┘
-                                     ▼
-                     [ Validated Response Stream ]
-```
+NEARO is a real-time, location-aware proximity platform engineered for instantaneous discovery of nearby nodes, community services, and active local hubs.
 
-</details>
+| Architecture Layer | Technical Specification |
+| :--- | :--- |
+| **Frontend Web Client** | Lightweight, high-responsiveness web application built for fast mobile browser rendering and dynamic location tracking ([Explore Repo](https://github.com/Thranae/NEARO)). |
+| **Geospatial API Engine** | Dedicated Node.js & Express RESTful service featuring spatial coordinate indexing, radius calculation queries, and distance clustering ([Explore Backend](https://github.com/Thranae/nearo-backend)). |
+| **Natural Language Routing** | Embedded lightweight NLP tokenizer (**Compromise**) for semantic extraction of user search intents without heavy external cloud overhead. |
+| **Real-Time Data Routing** | Modular service controllers managing authentication, live location streams, administrative telemetry, and peer communication routes. |
 
-<details>
-<summary><b>⚡ Deep Dive: Offline-First Distributed State Reconciliation</b></summary>
+<div align="center">
+  <a href="https://github.com/Thranae/NEARO">
+    <img src="https://img.shields.io/badge/EXPLORE-NEARO_WEB_CLIENT-10B981?style=for-the-badge&logo=github&logoColor=white" height="38" alt="Explore NEARO Web Client" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Thranae/nearo-backend">
+    <img src="https://img.shields.io/badge/EXPLORE-NEARO_BACKEND_API-0F172A?style=for-the-badge&logo=nodejs&logoColor=white" height="38" alt="Explore NEARO Backend" />
+  </a>
+</div>
 
-```
-  User Action (Create/Edit Trip, Toggle Item, Budget Mutation)
-                             │
-                             ▼
-  ┌────────────────────────────────────────────────────────┐
-  │ 1. Local-First Write: Dexie.js (IndexedDB)             │
-  │    → Immediate UI update (0ms perceived latency)       │
-  │    → Append mutation record to syncQueue table         │
-  └──────────────────────────┬─────────────────────────────┘
-                             │
-            Network Available? ─── NO ───► Queue persisted safely offline
-                             │
-                            YES
-                             │
-                             ▼
-  ┌────────────────────────────────────────────────────────┐
-  │ 2. Background Reconciler (syncService.js)              │
-  │    → Replay idempotent operations sequentially         │
-  │    → Server validates & updates MongoDB Atlas          │
-  │    → Flush resolved queue items                        │
-  └────────────────────────────────────────────────────────┘
-```
+<br /><br />
 
-</details>
+---
 
 <br />
 
-<img src="./assets/laser-divider.svg" width="100%" alt="Section Divider" />
+#### 3. 📚 [Library Management System](https://github.com/Thranae/Library-management-system) — Object-Oriented Architecture
+
+A clean, modular Python application implementing object-oriented programming (OOP) principles, structured domain modeling, catalog indexing, and transactional integrity.
+
+* **Domain-Driven Design**: Clean separation between entity definitions, inventory repositories, and transaction managers.
+* **State & Transaction Validation**: Automated handling of checkouts, overdue penalty calculations, and member validation.
 
 <br />
 
-### 📊 Real-Time GitHub Telemetry & Stats
+---
+
+### 🛠️ Technical Arsenal & Ecosystem Matrix
+
+<div align="center">
+
+<a href="https://github.com/Thranae">
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,threejs,nodejs,express,mongodb,postgres,docker,githubactions,ts,js,python,git,postman,figma,linux,androidstudio&perline=9&theme=dark" alt="Technical Arsenal Icons" />
+</a>
+
+</div>
+
+<br />
+
+| Domain | Core Technologies, Frameworks & Libraries |
+| :--- | :--- |
+| **Languages & Fundamentals** | **TypeScript**, **JavaScript (ESNext)**, **Python**, **SQL**, **HTML5 / CSS3** |
+| **Frontend & 3D Spatial** | **React 19**, **Vite 6**, **Tailwind CSS v4**, **Three.js**, **React-Globe.gl**, **Framer Motion**, **MapLibre GL** |
+| **Mobile & Cross-Platform** | **Capacitor 8** (iOS & Android native bindings), **React Native Expo**, **Workbox PWA** |
+| **Backend & Gateways** | **Node.js**, **Express.js**, RESTful APIs, SSE (Server-Sent Events), Rotating JWT Security, Connection Pooling |
+| **Databases & Storage** | **Dexie.js (IndexedDB)** local store, **MongoDB Atlas**, **Mongoose ODM**, **PostgreSQL** |
+| **Autonomous AI & NLP** | **Google Gemini 2.5 Flash**, **Groq Llama 3**, **OpenAI GPT-4o**, **Mistral AI**, **Compromise NLP** |
+| **DevOps & Verification** | **GitHub Actions CI/CD**, **Playwright E2E**, **Vitest**, **Docker**, **ESLint** |
+
+<br />
+
+---
+
+### 📊 GitHub Activity & Telemetry
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Thranae&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=60a5fa&text_color=e2e8f0" alt="Thranae's GitHub Stats" height="175" />
@@ -262,16 +216,7 @@ const thranae: SoftwareEngineer = {
 
 <br />
 
-<div align="center">
-  <!-- Dynamic GitHub Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Thranae&theme=tokyo-night&area=true&order=5&custom_title=Contributions%20Timeline%20%26%20Frequency" alt="Contribution Graph" width="95%" />
-</div>
-
-<br />
-
-<img src="./assets/laser-divider.svg" width="100%" alt="Section Divider" />
-
-<br />
+---
 
 ### 💡 Core Engineering Principles
 
@@ -282,18 +227,16 @@ const thranae: SoftwareEngineer = {
 
 <br />
 
-<img src="./assets/laser-divider.svg" width="100%" alt="Section Divider" />
-
-<br />
+---
 
 <div align="center">
 
 ### 🤝 Let's Connect & Collaborate
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Thranaeswanth-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thranaeswanth)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thranae7@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow%20@Thranae-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Thranae)
-[![Flagship](https://img.shields.io/badge/ReadMe-PackWise%20AI-2563EB?style=for-the-badge&logo=readme&logoColor=white)](https://github.com/Thranae/packwise#readme)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Thranaeswanth-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thranaeswanth)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:thranae7@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow%20@Thranae-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Thranae)
+[![Flagship](https://img.shields.io/badge/ReadMe-PackWise%20AI-2563EB?style=flat-square&logo=readme&logoColor=white)](https://github.com/Thranae/packwise#readme)
 
 <br /><br />
 
