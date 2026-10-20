@@ -160,16 +160,38 @@ NEARO is a unified real-time geospatial discovery monorepo combining a responsiv
 
 ---
 
-#### 3. 📚 [Library Management System](https://github.com/Thranae/Library-management-system) — Object-Oriented Architecture
-
-A clean, modular Python application implementing object-oriented programming (OOP) principles, structured domain modeling, catalog indexing, and transactional integrity.
-
-* **Domain-Driven Design**: Clean separation between entity definitions, inventory repositories, and transaction managers.
-* **State & Transaction Validation**: Automated handling of checkouts, overdue penalty calculations, and member validation.
+#### 3. 📚 [Library Management System](https://github.com/Thranae/Library-management-system#readme) — Enterprise Object-Oriented Architecture
 
 <div align="center">
-  <a href="https://github.com/Thranae/Library-management-system">
-    <img src="https://img.shields.io/badge/EXPLORE-LIBRARY_MANAGEMENT_SYSTEM-3776AB?style=for-the-badge&logo=python&logoColor=white" height="36" alt="Explore Library Management System" />
+
+<a href="https://github.com/Thranae/Library-management-system#readme">
+  <img src="./assets/library-banner.svg" width="100%" alt="Library Management System Banner" />
+</a>
+
+<p align="center">
+  <a href="https://github.com/Thranae/Library-management-system"><img src="https://img.shields.io/badge/ARCHITECTURE-ENTERPRISE%20OOP-ec4899?style=flat-square" alt="Architecture" /></a>
+  <a href="https://sqlite.org/"><img src="https://img.shields.io/badge/STORAGE-ACID%20SQLITE3-a855f7?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" /></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/CORE-PYTHON%203.8%2B%20ZERO--DEPS-38bdf8?style=flat-square&logo=python&logoColor=white" alt="Python" /></a>
+  <a href="https://github.com/Thranae/Library-management-system/actions"><img src="https://img.shields.io/badge/TESTS-100%25%20PASSING-10b981?style=flat-square&logo=githubactions&logoColor=white" alt="Tests" /></a>
+  <a href="https://github.com/Thranae/Library-management-system"><img src="https://img.shields.io/badge/UI-RICH%20ANSI%20TUI-f59e0b?style=flat-square" alt="TUI" /></a>
+</p>
+
+</div>
+
+A modern, production-grade Object-Oriented Library Management System engineered in pure Python with ACID SQLite relational persistence and ANSI terminal ergonomics.
+
+* **Zero-Dependency Portable Core**: Runs natively out-of-the-box on standard Python 3.8+ without third-party package dependencies.
+* **ACID Relational Storage Engine**: Replaces fragile in-memory structures with an indexed SQLite repository with B-tree query acceleration and foreign key constraints.
+* **Role-Based Loan Policies & Automated Fines**: Enforces differentiated borrowing windows and concurrent loan caps (Students: 14d/4 books, Faculty: 30d/10 books) with automated $1.50/day overdue fine calculations.
+* **Dual Execution Modes**: Ships both an interactive ANSI/Unicode full-screen terminal interface (TUI) and headless CLI subcommands (`list`, `search`, `borrow`, `return`, `donate`, `loans`, `stats`).
+
+<div align="center">
+  <a href="https://github.com/Thranae/Library-management-system#readme">
+    <img src="https://img.shields.io/badge/📖_OPEN_LMS_README-READ_DOCS_FIRST-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Open LMS README" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://codespaces.new/Thranae/Library-management-system">
+    <img src="https://img.shields.io/badge/⚡_LAUNCH_IN-CODESPACES-181717?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Launch in Codespaces" />
   </a>
 </div>
 

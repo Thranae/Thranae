@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="bgGlow" cx="20%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#0f172a" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="1"/>
+    </radialGradient>
+    
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7e22ce"/>
+    </linearGradient>
+
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Keyframe Animations -->
+    <style>
+      @keyframes floatBook1 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes floatBook2 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(-1.5deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.85; }
+      }
+      @keyframes orbitSpin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      .anim-book1 { animation: floatBook1 4.5s ease-in-out infinite; }
+      .anim-book2 { animation: floatBook2 5.5s ease-in-out infinite; }
+      .anim-pulse { animation: pulseGlow 3.5s ease-in-out infinite; }
+      .anim-orbit { transform-origin: 940px 190px; animation: orbitSpin 20s linear infinite; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: "SF Mono", "Fira Code", "Cascadia Code", Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" rx="18" fill="url(#bgGlow)"/>
+  
+  <!-- Subtle Grid Lines -->
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="80" x2="1200" y2="80"/>
+    <line x1="0" y1="160" x2="1200" y2="160"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="320" x2="1200" y2="320"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="800" y1="0" x2="800" y2="400"/>
+    <line x1="1000" y1="0" x2="1000" y2="400"/>
+  </g>
+
+  <!-- Ambient Glowing Orbs -->
+  <circle cx="240" cy="90" r="140" fill="#6366f1" filter="url(#neonGlow)" opacity="0.18" class="anim-pulse"/>
+  <circle cx="940" cy="190" r="160" fill="#a855f7" filter="url(#neonGlow)" opacity="0.22" class="anim-pulse"/>
+  <circle cx="820" cy="310" r="120" fill="#0284c7" filter="url(#neonGlow)" opacity="0.15" class="anim-pulse"/>
+
+  <!-- Left Content: Brand & Value Prop -->
+  <g transform="translate(60, 55)">
+    <!-- Pill Badge -->
+    <g transform="translate(0, 0)">
+      <rect width="210" height="30" rx="15" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3"/>
+      <circle cx="16" cy="15" r="4.5" fill="#38bdf8" filter="url(#softGlow)"/>
+      <text x="30" y="20" class="font-mono" font-size="11" font-weight="600" fill="#38bdf8" letter-spacing="1">ENTERPRISE OOP • v2.0</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="85" class="font-sans" font-size="46" font-weight="900" fill="#ffffff" letter-spacing="-1">
+      Library Management
+    </text>
+    <text x="0" y="132" class="font-sans" font-size="46" font-weight="900" fill="url(#neonPurple)" letter-spacing="-1">
+      System
+    </text>
+
+    <!-- Description -->
+    <text x="0" y="172" class="font-sans" font-size="15" font-weight="400" fill="#94a3b8">
+      High-performance Python architecture featuring ACID SQLite persistence,
+    </text>
+    <text x="0" y="194" class="font-sans" font-size="15" font-weight="400" fill="#94a3b8">
+      due-date fine calculations, indexed search, and a vibrant ANSI terminal UI.
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 235)">
+      <!-- Tag 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="135" height="34" rx="8" fill="url(#cardGrad)" stroke="#ffffff" stroke-width="1" stroke-opacity="0.12"/>
+        <text x="14" y="22" class="font-sans" font-size="13" font-weight="600" fill="#e2e8f0">⚡ Zero-Deps</text>
+      </g>
+      <!-- Tag 2 -->
+      <g transform="translate(148, 0)">
+        <rect width="145" height="34" rx="8" fill="url(#cardGrad)" stroke="#ffffff" stroke-width="1" stroke-opacity="0.12"/>
+        <text x="14" y="22" class="font-sans" font-size="13" font-weight="600" fill="#e2e8f0">🛡 ACID SQLite</text>
+      </g>
+      <!-- Tag 3 -->
+      <g transform="translate(306, 0)">
+        <rect width="140" height="34" rx="8" fill="url(#cardGrad)" stroke="#ffffff" stroke-width="1" stroke-opacity="0.12"/>
+        <text x="14" y="22" class="font-sans" font-size="13" font-weight="600" fill="#e2e8f0">✨ Rich ANSI TUI</text>
+      </g>
+      <!-- Tag 4 -->
+      <g transform="translate(458, 0)">
+        <rect width="145" height="34" rx="8" fill="url(#cardGrad)" stroke="#ffffff" stroke-width="1" stroke-opacity="0.12"/>
+        <text x="14" y="22" class="font-sans" font-size="13" font-weight="600" fill="#e2e8f0">🧪 100% Tested</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Visual: 3D Holographic Book Stack with Orbiting Rings -->
+  <!-- Orbiting rings -->
+  <g class="anim-orbit">
+    <ellipse cx="940" cy="190" rx="170" ry="60" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.4"/>
+    <ellipse cx="940" cy="190" rx="140" ry="110" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.3"/>
+  </g>
+
+  <!-- Book 3 (Bottom) -->
+  <g transform="translate(820, 240)" class="anim-book2">
+    <!-- Spine -->
+    <path d="M 0 30 L 140 60 L 250 20 L 110 -10 Z" fill="#312e81"/>
+    <!-- Pages -->
+    <path d="M 0 30 L 0 50 L 140 80 L 140 60 Z" fill="#e2e8f0"/>
+    <path d="M 140 60 L 140 80 L 250 40 L 250 20 Z" fill="#cbd5e1"/>
+    <!-- Top Cover -->
+    <path d="M 0 25 L 140 55 L 250 15 L 110 -15 Z" fill="url(#neonPurple)"/>
+  </g>
+
+  <!-- Book 2 (Middle) -->
+  <g transform="translate(835, 185)" class="anim-book1">
+    <path d="M 0 25 L 130 52 L 235 18 L 105 -9 Z" fill="#0369a1"/>
+    <path d="M 0 25 L 0 42 L 130 69 L 130 52 Z" fill="#f1f5f9"/>
+    <path d="M 130 52 L 130 69 L 235 35 L 235 18 Z" fill="#e2e8f0"/>
+    <path d="M 0 20 L 130 47 L 235 13 L 105 -14 Z" fill="url(#neonCyan)"/>
+  </g>
+
+  <!-- Book 1 (Top Open Book / Hologram) -->
+  <g transform="translate(850, 110)" class="anim-book1">
+    <!-- Left Page -->
+    <path d="M 100 45 C 50 35, 10 40, -10 30 L 10 0 C 30 10, 70 5, 100 15 Z" fill="#ffffff" fill-opacity="0.95"/>
+    <path d="M 100 45 L 100 52 C 70 42, 30 47, 10 37 L 10 0 C 30 10, 70 5, 100 15 Z" fill="#94a3b8" fill-opacity="0.4"/>
+    
+    <!-- Right Page -->
+    <path d="M 100 45 C 150 35, 190 40, 210 30 L 190 0 C 170 10, 130 5, 100 15 Z" fill="#f8fafc" fill-opacity="0.95"/>
+    
+    <!-- Page Spine Glow -->
+    <line x1="100" y1="15" x2="100" y2="45" stroke="#a855f7" stroke-width="2.5" filter="url(#softGlow)"/>
+
+    <!-- Holographic Energy Beams Shooting Up -->
+    <g opacity="0.6">
+      <line x1="100" y1="15" x2="100" y2="-40" stroke="#c084fc" stroke-width="2" filter="url(#neonGlow)"/>
+      <line x1="70" y1="20" x2="60" y2="-25" stroke="#38bdf8" stroke-width="1.5" filter="url(#softGlow)"/>
+      <line x1="130" y1="20" x2="140" y2="-25" stroke="#38bdf8" stroke-width="1.5" filter="url(#softGlow)"/>
+    </g>
+
+    <!-- Floating Particles -->
+    <circle cx="85" cy="-15" r="2.5" fill="#fef08a" filter="url(#softGlow)"/>
+    <circle cx="120" cy="-30" r="2" fill="#38bdf8" filter="url(#softGlow)"/>
+    <circle cx="100" cy="-50" r="3" fill="#c084fc" filter="url(#softGlow)"/>
+  </g>
+</svg>
