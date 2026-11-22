@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://github.com/Thranae"><img src="https://img.shields.io/badge/GITHUB-Thranae-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://linkedin.com/in/thranaeswanth"><img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/Thranae/packwise#readme"><img src="https://img.shields.io/badge/FLAGSHIP-PackWise%20AI-2563EB?style=flat-square&logo=googlemaps&logoColor=white" alt="PackWise AI" /></a>
+  <a href="https://packwise-neon.vercel.app"><img src="https://img.shields.io/badge/LIVE%20DEMO-PackWise%20AI-000000?style=flat-square&logo=vercel&logoColor=white" alt="PackWise AI Live Demo" /></a>
   <a href="https://github.com/Thranae/NEARO"><img src="https://img.shields.io/badge/GEOSPATIAL-NEARO%20Platform-10B981?style=flat-square&logo=openstreetmap&logoColor=white" alt="NEARO" /></a>
   <a href="https://github.com/Thranae"><img src="https://img.shields.io/badge/STATUS-Open%20for%20Opportunities-38BDF8?style=flat-square" alt="Status" /></a>
 </p>
@@ -82,15 +82,16 @@ const thranae: SoftwareEngineer = {
 
 ### 🚀 Featured Engineering Projects
 
-#### 1. 🌐 [PackWise AI](https://github.com/Thranae/packwise#readme) — The Autonomous Travel Operating System
+#### 1. 🌐 [PackWise AI](https://packwise-neon.vercel.app) — The Autonomous Travel Operating System
 
 <div align="center">
 
-<a href="https://github.com/Thranae/packwise#readme">
+<a href="https://packwise-neon.vercel.app" target="_blank">
   <img src="./assets/packwise-banner.svg" width="100%" alt="PackWise AI Flagship Banner" />
 </a>
 
 <p align="center">
+  <a href="https://packwise-neon.vercel.app" target="_blank"><img src="https://img.shields.io/badge/LIVE%20DEMO-packwise--neon.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" /></a>
   <a href="https://github.com/Thranae/packwise/actions"><img src="https://img.shields.io/github/actions/workflow/status/Thranae/packwise/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=CI%20BUILD" alt="CI Build" /></a>
   <a href="https://react.dev/"><img src="https://img.shields.io/badge/FRONTEND-REACT%2019%20%2B%20VITE%206-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" /></a>
   <a href="https://dexie.org/"><img src="https://img.shields.io/badge/OFFLINE--FIRST-DEXIE.JS%20INDEXEDDB-F59E0B?style=flat-square&logo=databricks&logoColor=white" alt="Dexie.js" /></a>
@@ -98,7 +99,7 @@ const thranae: SoftwareEngineer = {
   <a href="https://github.com/Thranae/packwise#readme"><img src="https://img.shields.io/badge/AI-MULTI--LLM%20FAILOVER-8B5CF6?style=flat-square&logo=openai&logoColor=white" alt="Multi-LLM" /></a>
 </p>
 
-<a href="https://github.com/Thranae/packwise#readme">
+<a href="https://packwise-neon.vercel.app" target="_blank">
   <img src="./assets/app-preview.jpg" alt="PackWise AI Application Interface Showcase" width="95%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.12); box-shadow: 0 16px 40px rgba(0,0,0,0.4);" />
 </a>
 
@@ -112,8 +113,12 @@ PackWise is an enterprise-grade travel operating system engineered from first pr
 * **Tri-Platform Code Sharing**: Shared architecture powering a progressive web app (**Workbox PWA**), hardware-accelerated **Capacitor 8** native runtime for iOS/Android, and an **Expo** React Native ecosystem.
 
 <div align="center">
+  <a href="https://packwise-neon.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_APP-VERCEL_DEPLOYMENT-000000?style=for-the-badge&logo=vercel&logoColor=white" height="36" alt="Launch Live App on Vercel" />
+  </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/Thranae/packwise#readme">
-    <img src="https://img.shields.io/badge/📖_OPEN_PACKWISE_README-READ_DOCS_FIRST-2563EB?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Open PackWise README" />
+    <img src="https://img.shields.io/badge/📖_OPEN_PACKWISE_README-READ_DOCS-2563EB?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Open PackWise README" />
   </a>
   &nbsp;&nbsp;
   <a href="https://codespaces.new/Thranae/packwise">
@@ -240,7 +245,7 @@ A modern, production-grade Object-Oriented Library Management System engineered 
   <a href="https://linkedin.com/in/thranaeswanth"><img src="https://img.shields.io/badge/LinkedIn-Thranaeswanth-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:thranae7@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/Thranae"><img src="https://img.shields.io/badge/GitHub-Follow%20@Thranae-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://github.com/Thranae/packwise#readme"><img src="https://img.shields.io/badge/ReadMe-PackWise%20AI-2563EB?style=flat-square&logo=readme&logoColor=white" alt="PackWise ReadMe" /></a>
+  <a href="https://packwise-neon.vercel.app"><img src="https://img.shields.io/badge/Live%20App-PackWise%20AI-000000?style=flat-square&logo=vercel&logoColor=white" alt="PackWise Live App" /></a>
 </p>
 
 <!-- Sleek Animated Cyber-Pulse Divider -->
